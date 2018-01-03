@@ -1,0 +1,48 @@
+{
+	"homepage": "http://www.teamcofh.com/downloads/",
+	"1.12.2": {
+		"2.3.10": "Internal refactors and optimizations. Support for Essence in the Tome of Knowledge.",
+		"2.3.9": "Charcoal and Coal Coke blocks.",
+		"2.3.8": "AOE Breakage indication! Minor bugfixes. Merry Christmas. ;)",
+		"2.3.7": "New fluids and items. Go read the changelog. First 1.12.2 required release."
+	},
+	"1.12": {
+		"2.3.6": "Adds bait (Aqua-Chow), minor bugfixes.",
+		"2.3.5": "Tinker's Construct Support added!",
+		"2.3.4": "Minor bugfixes.",
+		"2.3.3": "Some miscellaneous new recipes. And support code.",
+		"2.3.2": "Mushroom Stew!",
+		"2.3.1": "Lots of internal refactoring.",
+		"2.3.0": "Initial 1.12 release!"
+	},
+	"1.11.2": {
+		"2.2.5": "Final 1.11.2 release.",
+		"2.2.4": "Added new tools and armor. Fixes issue with latest Forge.",
+		"2.2.3": "Resource organization overhaul.",
+		"2.2.2": "Fixes for the Forge Lexicon. Thanks Mojang.",
+		"2.2.1": "Minor fix to breaking Clathrates.",
+		"2.2.0": "Initial 1.11.2 release!"
+	},
+	"1.10.2": {
+		"2.1.5": "Final 1.10.2 release.",
+		"2.1.4": "Added new tools and armor.",
+		"2.1.3": "Resource organization overhaul.",
+		"2.1.2": "Minor fix to breaking Clathrates.",
+		"2.1.1": "Clathrates and oil generation!",
+		"2.1.0": "Minor bugfixes. Adds sap!",
+		"2.0.5": "Fixes an oversight with the config options. Sorry about that!",
+		"2.0.4": "Bugfixes and config options. Check your configs after update!",
+		"2.0.3": "Bump for compatibility with Core 4.1",
+		"2.0.2": "Hammers are now hammers again, added shields!",
+		"2.0.1": "Bugfixes!",
+		"2.0.0": "Initial 1.10.2 release!"
+	},
+	"promos": {
+		"1.12-latest": "2.3.6",
+		"1.12-recommended": "2.3.6",
+		"1.11.2-latest": "2.2.5",
+		"1.11.2-recommended": "2.2.5",
+		"1.10.2-latest": "2.1.5",
+		"1.10.2-recommended": "2.1.5"
+	}
+}

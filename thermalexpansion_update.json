@@ -1,0 +1,54 @@
+{
+	"homepage": "http://www.teamcofh.com/downloads/",
+	"1.12.2": {
+		"5.3.10": "New machine - an autocrafter. And Morb processing!",
+		"5.3.9": "Morbs. And a void satchel.",
+		"5.3.8": "Overhauls to a couple of machines. New item - Reservoir. New satchel functionality. New augments! Go read the full changelog.",
+		"5.3.7": "A fairly large update - new machines and devices. Go read the full changelog. First 1.12.2 required release."
+	},
+	"1.12": {
+		"5.3.6": "More Plugins! Twilight Forest, Plants 2, Extra Utilities. Also adds the Aquatic Entangler!",
+		"5.3.5": "Added and updated LOTS of Plugins. Forestry, Binnies, Magic Bees, Gendustry, IC2, Traverse, etc.",
+		"5.3.4": "Minor bugfixes.",
+		"5.3.3": "New augments! And a couple of bugfixes.",
+		"5.3.2": "Biomes O' Plenty integration. And Mushroom Stew.",
+		"5.3.1": "Lots of internal refactoring.",
+		"5.3.0": "Initial 1.12 release!"
+	},
+	"1.11.2": {
+		"5.2.7": "Okay I lied. Minor bugfixes.",
+		"5.2.6": "Final 1.11.2 release.",
+		"5.2.5": "Texture updates and underlying infrastructure.",
+		"5.2.4": "Lots of x-mod plugin support. Adds Satchel and Centrifuge.",
+		"5.2.3": "Fixes for the Energetic Infuser, and a Magma Crucible Recipe.",
+		"5.2.2": "Fixes an intermod crash.",
+		"5.2.1": "Fixes to Arboreal Extractor and Fluid Transposer.",
+		"5.2.0": "Initial 1.11.2 release!"
+	},
+	"1.10.2": {
+		"5.1.10": "Okay I lied. Minor bugfixes.",
+		"5.1.9": "Final 1.10.2 release.",
+		"5.1.8": "Texture updates!",
+		"5.1.7": "Lots of x-mod plugin support.",
+		"5.1.6": "Fixes for the Energetic Infuser, and a Magma Crucible Recipe.",
+		"5.1.5": "Fixes a potential intermod crash.",
+		"5.1.4": "Fix to Arboreal Extractor and Sap generation.",
+		"5.1.3": "Backend optimization, Canola Oil integration.",
+		"5.1.2": "Fixes a bug with the Sawmill.",
+		"5.1.1": "Bugfixes and a Forestry Plugin.",
+		"5.1.0": "Lots of changes. Capacitors and strongboxes!",
+		"5.0.4": "And yet more bugfixes. Some groundwork for 5.1.",
+		"5.0.3": "More bugfixes! Also redid Sawmill Recipes and added configs for machine features",
+		"5.0.2": "Improvements to Thermal Mediator, adjustments to Steel creation.",
+		"5.0.1": "Bugfixes!",
+		"5.0.0": "Thermal Expansion 5 release!"
+	},
+	"promos": {
+		"1.12-latest": "5.3.6",
+		"1.12-recommended": "5.3.6",
+		"1.11.2-latest": "5.2.7",
+		"1.11.2-recommended": "5.2.7",
+		"1.10.2-latest": "5.1.10",
+		"1.10.2-recommended": "5.1.10"
+	}
+}

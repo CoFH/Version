@@ -1,0 +1,804 @@
+Thermal Expansion
+
+CHANGELOG
+====================================================================================================
+5.3.10:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Internal refactors and optimizations.
+
+ADDED:
+	-New Machine:
+		Sequential Fabricator - It's an autocrafter! :D
+
+	-New Augments:
+		Pattern Validation - Enables intelligent auto-input on the Sequential Fabricator.
+
+		Fluidic Fabrication - Adds an internal fluid tank to the Sequential Fabricator.
+
+		Enstabulation Apparatus - Allows for the Centrifuge to "process" Morbs.
+
+	-New machine process recipes.
+	-Plugin Support for Ice and Fire.
+
+CHANGED:
+	-All blocks can now be filled/drained by hand, even the Fluid Transposer. Some machines may need
+		to be OFF to allow for fluid to be drained.
+	-Cache behavior has been changed internally, for better crossmod compatibility.
+	-Comparator behavior has been improved for the Cell, Tank, and Cache.
+	-Many recipes have been rebalanced. In general, dynamos and augments are all slightly cheaper.
+
+----------------------------------------------------------------------------------------------------
+5.3.9:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Items:
+		Morbs. These allow for mobs to be caught. Basic Morbs have a 25% reuse chance. Adding some
+		signalum makes this 100%. (Thanks ImbaKnugel)
+
+		Void Satchel. It's a satchel that voids things. Be careful.
+
+CHANGED:
+	-Dusts now smelt one at a time in the Induction Smelter. Energy cost has been adjusted.
+	-Satchels now transfer to inventory on sneak-click, not regular click.
+
+FIXED:
+	-Added logic to the Arcane Ensorcellator to circumvent a miserable failing on Mojang's part.
+	-Corrected a corner case where Furnace recipes were not properly retrieved.
+	-Fixed a crash when locking a tank in the Fluid Allocator.
+
+----------------------------------------------------------------------------------------------------
+5.3.8:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Augments:
+		Gearworking Die - Allows the Compactor to create Gears from 4 Ingots.
+
+		Parabolic Flux Coupling - Converts the Energetic Infuser into a wireless charger. Only Flux
+			Capacitors will be charged. This is very intentional. (Thanks ImbaKnugel)
+
+		Disjunctive Extraction - Allows the Enervation Dynamo to destroy enchanted items for RF.
+
+	-New Item: Reservoir - It's a multi-bucket fluid "capacitor" of sorts.
+
+	-Satchels now have filtering, auto-pickup, and inventory transfer. (Thanks ImbaKnugel)
+
+CHANGED:
+	-Device recipes have been changed - more Iron, less Tin overall.
+	-Fluid Transposer behavior has been adjusted to accommodate partial fills/drains.
+	-Igneous Extruder and Glacial Precipitator have been rewritten and have new GUIs and backends.
+
+FIXED:
+	-Charger and Transposer should no longer have "orphan" processes in some cases.
+
+REMOVED:
+	-Substrate and Stratum augments.
+
+----------------------------------------------------------------------------------------------------
+5.3.7:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Due to a large number of changes in Forge, 1.12.2 is now a requirement.
+	-Minor texture adjustments and improvements.
+	-More plugin support. :)
+	-Many recipes and machine processes have been adjusted and/or rebalanced a bit.
+	-Some items have had their registration adjusted. You may see a log message about this when
+		loading an existing world.
+
+ADDED:
+	-New Augments:
+		Metallurgical Recovery - Provides a chance to not consume Metallurgical Flux in the Smelter.
+
+		Nutrient Recovery - Provides a chance to not consume Fertilizer in the Insolator.
+
+		Reagent Recovery - Provides a chance to not consume Reagents in the Alchemical Imbuer.
+
+		Monoculture Cycle - "Seed" inputs are not consumed in the Insolator, if appropriate.
+
+		Reflux Column - Increases the Still's conversion efficiency for Fossil Fuels.
+
+		Alchemical Retort - Allows the Still to refine potions, improving their effectiveness.
+
+		Flux Reconstruction - Allows the Energetic Infuser to repair items, using Flux and fluid XP.
+
+	-New Machines:
+		Alchemical Imbuer - It makes potions. :) Chain a few of them in a row along with augmented
+			Fractionating Stills and have fun!
+
+		Arcane Ensorcellator - Takes a book, fluid XP, and an item to make an Enchanted Tome. More
+			functionality on the way!
+
+	-New Devices:
+		Fluid Allocator - moves fluids around, kind of like a hopper, but way better. Three tanks;
+			they can be locked to particular fluids.
+
+		Lexical Transmuter - Forge Lexicon, in block form. Uses TF's Lexicon whitelist. Transmutes
+			up to 9 different types of items, chosen via a grid.
+
+		Insightful Condenser - Collects XP orbs in a small radius. Converts XP into fluid form. Use
+			various catalysts to provide bonus XP.
+
+		Decoctive Diffuser - Distributes fluid potion in a small radius. Use various reagents to
+			alter the potency or duration.
+
+	-Classic Crafting and UpgradeKitCrafting config options for most blocks.
+
+	-CustomScaling config options for Dynamos and Machines.
+
+	-Config options to disallow Creative versions of Storage blocks.
+
+	-New Plugins: Integrated Dynamics and Terraqueous.
+
+CHANGED:
+	-Aqueous Accumulator now produces quite a bit more Water.
+	-Cache locking behavior has been changed somewhat - empty Caches can no longer be locked.
+	-Creative Tabs have been reorganized.
+	-Dynamos now always face up on placement; no more auto-rotation.
+	-Phytogenic Insolator no longer needs Substrate Augments for certain crops.
+	-Portable Tanks can now be locked and respond to Redstone Control. Sneak-using a tank with an
+		empty hand locks it. Sneak-using a tank with a Multimeter opens the configuration GUI.
+	-Steam Dynamos cannot use any fuel with a value < 3000 RF.
+
+FIXED:
+	-Fixed a very recently introduced crash with Florbs. Thanks, Mojang! :D
+	-Fixed an IC2 Plugin recipe.
+
+REMOVED:
+	-Substrate augments for the Phytogenic Insolator. They just weren't fun.
+	-Upgrade Items. They are now part of Thermal Foundation. Don't worry, they transition smoothly.
+
+----------------------------------------------------------------------------------------------------
+5.3.6:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-More plugin support!
+	-New Configuration options - "Classic" Crafting and Upgrade Kit Crafting.
+	-New Device: Aquatic Entangler. It catches fish. Use Aqua-Chow to boost the output.
+
+CHANGED:
+	-Some machine recipes have been adjusted.
+	-The Pulverizer and Smelter boosting augments now absolutely require their respective Fluid.
+
+FIXED:
+	-Miscellaneous minor bugfixes and recipe oversights.
+
+----------------------------------------------------------------------------------------------------
+5.3.5:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Tons of Plugin Support and a new Plugin framework.
+	-Upgrading or augmenting something now plays a sound. :)
+
+CHANGED:
+	-Many machine recipes have been changed or updated in terms of energy cost.
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+5.3.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+5.3.3:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Augments:
+		Boiler Conversion - Allows for Steam, Magmatic, and Compression Dynamos to generate steam
+			instead of RF.
+
+		Lapidary Calibration - Allows gems to be used in the Numismatic Dynamo. Greatly boosts power
+			output and efficiency.
+
+		Pyroconvective Loop - Greatly increases the speed of the Magma Crucible when making lava.
+
+	-Base Dynamo output can now be configured.
+	-Quark block support.
+
+CHANGED:
+	-Dynamos have been rebalanced a bit.
+	-Numismatic Dynamo fuel values have been totally redone.
+	-The RF cost on many recipes has been adjusted.
+	-Redprints now store auto-extract and auto-eject settings.
+
+FIXED:
+	-Some corner cases with item ejection.
+
+----------------------------------------------------------------------------------------------------
+5.3.2:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-The Arboreal Extractor now harvests Mushroom Stew from Huge Mushrooms.
+	-Biomes O' Plenty support.
+	-Strongboxes have support for Quark's drop off feature.
+
+FIXED:
+	-A couple of minor bugs with the Centrifuge.
+	-A minor graphical issue with the Redstone Furnace GUI.
+
+----------------------------------------------------------------------------------------------------
+5.3.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Loads of internal refactors.
+
+----------------------------------------------------------------------------------------------------
+5.3.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.12.
+
+====================================================================================================
+5.2.7:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes and optimizations.
+
+----------------------------------------------------------------------------------------------------
+5.2.6:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+5.2.5:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-QoL improvements - configs for storage things.
+
+CHANGED:
+	-Lots of textures. :)
+
+FIXED:
+	-Stupid-proofed a couple of potential x-mod interactions.
+
+----------------------------------------------------------------------------------------------------
+5.2.4:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Plugin support has been improved.
+
+ADDED:
+	-Satchels have returned! For now, they're just bags. They hold things. Improvements to come!
+	-New Machine: Centrifugal Separator. It separates things into their pieces, like alloy blends.
+
+	-Plugin support for HarvestCraft, Natura, and Rustic.
+	-More features for Forestry and Tinker's Construct Plugins.
+
+CHANGED:
+	-The Sapling Infuser is no longer a Specialization Augment. It may be combined with a Substrate
+		augment. (This is necessary for some trees.)
+
+	-Fluxed Phyto-Gro is slightly less effective. (4x multiplier instead of 5x)
+	-Various parameters relating to the PHytogenic Insolator have been altered.
+
+----------------------------------------------------------------------------------------------------
+5.2.3:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Some optimization on the backend.
+
+ADDED:
+	-Magma Crucible can now melt down Magma Blocks.
+
+FIXED:
+	-Block sounds work again. Woops.
+	-Various issues related to the Energetic Infuser.
+
+----------------------------------------------------------------------------------------------------
+5.2.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Stupid-proof the Fluid Tank so that irresponsible blanket registry scans no longer crash.
+
+----------------------------------------------------------------------------------------------------
+5.2.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Lots of JEI improvements. Requires version 4.5.0+
+
+FIXED:
+	-Arboreal Extractor now better remembers what fluid it is creating.
+	-Fluid Transposer works properly now.
+
+----------------------------------------------------------------------------------------------------
+5.2.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.11.2.
+
+====================================================================================================
+5.1.10:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes and optimizations.
+
+----------------------------------------------------------------------------------------------------
+5.1.9:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+5.1.8:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-QoL improvements - configs for storage things.
+
+CHANGED:
+	-Lots of textures. :)
+
+FIXED:
+	-Stupid-proofed a couple of potential x-mod interactions.
+
+----------------------------------------------------------------------------------------------------
+5.1.7:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Plugin support has been improved.
+
+ADDED:
+	-Plugin support for HarvestCraft and Natura.
+	-More features for Forestry and Tinker's Construct Plugins.
+
+CHANGED:
+	-The Sapling Infuser is no longer a Specialization Augment. It may be combined with a Substrate
+		augment. (This is necessary for some trees.)
+
+	-Fluxed Phyto-Gro is slightly less effective. (4x multiplier instead of 5x)
+	-Various parameters relating to the PHytogenic Insolator have been altered.
+
+----------------------------------------------------------------------------------------------------
+5.1.6:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Some optimization on the backend.
+
+ADDED:
+	-Magma Crucible can now melt down Magma Blocks.
+
+FIXED:
+	-Block sounds work again. Woops.
+	-Various issues related to the Energetic Infuser.
+
+----------------------------------------------------------------------------------------------------
+5.1.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Stupid-proof the Fluid Tank so that irresponsible blanket registry scans no longer crash.
+
+----------------------------------------------------------------------------------------------------
+5.1.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Arboreal Extractor now better remembers what fluid it is creating.
+
+----------------------------------------------------------------------------------------------------
+5.1.3:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Minor updates for optimization.
+
+----------------------------------------------------------------------------------------------------
+5.1.2:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Support for the new Clathrate ores in TF.
+
+ADDED:
+	-TCon Plugin. :)
+
+FIXED:
+	-Sawmill obeys OreDict once again.
+
+----------------------------------------------------------------------------------------------------
+5.1.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Adjustments to recipe registration for ModTweaker support. They should be adding it shortly.
+
+ADDED:
+	-Forestry Plugin. :)
+
+FIXED:
+	-Induction Smelter obeys OreDict once again.
+
+5.1.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-JEI Integration has been improved.
+	-Numbers have commas now. :)
+	-Various graphical improvements.
+
+ADDED:
+	Blocks:
+		-Item Allocator - moves things around, kind of like a hopper, but way better.
+		-Strongboxes - yeah, you know what these do.
+
+	Items:
+		-Flux Capacitors - 3 modes now! Read the tooltip!
+
+	-Machines now have sounds. Again.
+	-New side configuration: blue/orange for input/output.
+	-Tons of new machine recipes. :)
+	-New Augments:
+		-Elemental Catalyzer - Boosts output of Reactant Dynamo, for Elemental Reactions.
+		-Flurry Stratum - Glacial Precipitator can make snow layers.
+		-Pyroclastic Injection - Igneous Extruder no longer requires Water for operation.
+		-Pyrolytic Conversion - Redstone Furnace can produce Creosote Oil by burning certain material.
+		-Sapling Infuser - Phytogenic Insolator can grow trees with this installed.
+
+CHANGED:
+	-Arboreal Extractor now accepts fertilizer to boost production.
+	-Reactant Dynamo has been completely overhauled. Refer to JEI.
+
+FIXED:
+	-Fluid Transposer now properly handles certain IFluidHandler Items.
+	-Issue where GUI tabs would not consistently remain.
+	-Some rare corner case crashes.
+
+----------------------------------------------------------------------------------------------------
+5.0.4:
+----------------------------------------------------------------------------------------------------
+
+TODO, yeah yeah I know. Suffice it to say it's a really good mod.
+
+----------------------------------------------------------------------------------------------------
+5.0.3:
+----------------------------------------------------------------------------------------------------
+
+TODO.
+
+----------------------------------------------------------------------------------------------------
+5.0.2:
+----------------------------------------------------------------------------------------------------
+
+TODO.
+
+----------------------------------------------------------------------------------------------------
+5.0.1:
+----------------------------------------------------------------------------------------------------
+
+TODO.
+
+----------------------------------------------------------------------------------------------------
+5.0.0:
+----------------------------------------------------------------------------------------------------
+
+TODO.
+
+====================================================================================================
+4.1.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Fixed a couple of dupe bugs with various blocks.
+
+----------------------------------------------------------------------------------------------------
+4.1.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Fixed crashing when removing nothing from empty caches.
+	-Fixed occasional instant re-teleports when using teleport plates with a jetpack.
+
+----------------------------------------------------------------------------------------------------
+4.1.3:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Caches now display a lock symbol when locked.
+	-More lamp styles.
+	-Recycling recipes for a variety of items such as armor, bricks, and tools.
+	-Tanks now have multi-teir upgrade recipes.
+
+CHANGED:
+	-Default to the software tesseract shader.
+	-Caches, Strongboxes, and Tanks now stack when empty.
+	-Caches now default to exacting 1 item at a time, and 64 items when shifting and are louder.
+	-No more infinite sawdust from swords.
+	-Schematic tab is now on the left instead of the right.
+
+FIXED:
+	-Crash in SchematicHelper.
+	-Plates not retaining energy when picked up.
+	-Some blocks acting like fences and letting you wave everything at them.
+	-Workbench GUI no longer runs at 1 FPS when open.
+	-Allocator overriding configured slots when placed.
+	-FluiVac working appropriately on ticking lava blocks.
+	-Cache item duplication.
+	-Allocator item duplication.
+	-Activators crashing when flipping their own levers on or off.
+	-Plates forgetting RS settings.
+	-Sometimes recipes in machines would fail to register correctly.
+	-Workbench placing buckets in schematic slots when crafting.
+	-Fix items crashing servers when thrown on x-dimensional teleport plates.
+
+----------------------------------------------------------------------------------------------------
+4.1.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Corrected fall damage logic with excursion plates.
+	-Corrected powered plate rotation logic.
+	-Fixed a variety of issues with Workbenches and NEI.
+	-Removed a corner-case Cache dupe bug.
+	-Rockwool now recolors properly.
+	-The Igneous Extruder config options now work correctly for people with ridiculous ideas.
+
+----------------------------------------------------------------------------------------------------
+4.1.1:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Corrected a corner case crash in NEI recipes.
+	-Corrected missing localization entries for new plates.
+
+----------------------------------------------------------------------------------------------------
+4.1.0:
+----------------------------------------------------------------------------------------------------
+The long, slow, painful update.
+Probably the final "big" 1.7.10 update.
+
+ADDED:
+	Blocks:
+		-Item Allocator - moves things around, kind of like a hopper, but way better.
+
+		-Plates - 3 new plates join the existing ones. They all require RF:
+			Charge Plate - Charge items and equipment.
+			Excursion Plate - Project a beam of force. Redstone will reverse the direction.
+			Teleport Plate - Set up teleportation between distant locations.
+
+		-Workbenches:
+			There are now five different tiers of workbenches (4 + Creative). Enjoy!
+
+CHANGED:
+	-Caches are less exclusive in accepting items from a player inventory.
+	-Steam Dynamos can no longer have their steam extracted.
+	-Maximum Portable Tank size has been adjusted to prevent people from going over INT_MAX mB.
+	-Workbenches can now have things automatically inserted/extracted from their inventories.
+	-Workbenches have been majorly overhauled. Existing workbenches *should* convert painlessly.
+
+FIXED:
+	-Corrected texture seams on Illuminators.
+	-Creative Tanks now properly re-render when new fluid is introduced.
+	-Fixed a corner case crash with NEI recipes.
+	-Fixed an issue where the Redstone Furnace would be confused by improper OreDictionary entries.
+	-Fix various localization issues with Turkish.
+	-Integrated Hopper Augment now pulls from correct sides in all cases.
+
+----------------------------------------------------------------------------------------------------
+4.0.3:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	General:
+		-Redprints now have a Minecraft sound effect.
+		-Tesseract Frames can now be disabled, if the recipe for Tesseracts is also disabled.
+
+	Augments:
+		-Integrated Hopper Apparatus - Allows machines to automatically extract from adjacent
+			inventories.
+		-Nullification Chamber - Destroys excess secondary products. Machines will still produce
+			secondary products. However, the process will not be stopped due to lack of room.
+
+	Recipes:
+		-Pulverizer - added more recipes for creating dye from vanilla flowers.
+		-Fluid Transposer - added a recipe for Packed Ice using Ice and Gelid Cryotheum.
+
+CHANGED:
+	-Augment tooltips now contain more information about the purpose of the item.
+	-Some augment textures have been renamed. Sorry about that, texture packs. :(
+	-The Sawmill can now produce additional Sawdust if the secondary chance is increased.
+	-Transmission Coil Ducting has a new icon.
+
+FIXED:
+	-Fixed an issue with the Fluid Transposer not handling certain OreDictionary names.
+
+REMOVED:
+	-Textures under the "component" folder as they were no longer in use.
+
+----------------------------------------------------------------------------------------------------
+4.0.2:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	Items:
+		-FluiVac - moves fluids around!
+			Dual-mode tool, requires RF to operate. Can pull fluids from the world and store them in
+			tanks that you are carrying. Alternatively, can empty said tanks into the world. Never
+			use a bucket again!
+
+		-Flux Chiller - like the Flux Igniter, except cold. Makes snow, ice, obsidian.
+
+		-Flux Transfuser - moves RF around!
+			Dual-mode tool. Can extract RF from devices in the world and store them in chargable
+			items that you are carrying. Alternatively, can charge blocks placed in the world. Not
+			a proper substitute for Fluxducts, but it can work in a pinch.
+
+	Augments:
+		-Excitation Field Limiter - Adjusts the power curve on a Dynamo to remove inefficiency.
+		-Trivection Chamber - Allows the Furnace to cook food *very* efficiently, but only food.
+
+CHANGED:
+	-Augment tooltips have been clarified with regard to power vs energy consumption.
+	-The Redstone Conductance Coil's icon has been mirrored to alleviate confusion.
+
+FIXED:
+	-Caches now guard themselves against the Hopper's rampant stupidity.
+	-Fixed a visual glitch with the Enervation Dynamo and items containing a lot of RF.
+	-Fixed an issue with the Induction Smelter and the configurable Ore Multiplier.
+	-The Phytogenic Insolator can now safely be accessed from a "colorless" side.
+	-White Glowstone Illuminators are no longer interpreted as a default color on login.
+
+----------------------------------------------------------------------------------------------------
+4.0.1:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	Blocks:
+		-Hardened Lumium Glass
+			Same as Hardened Glass, gives off light. New texture.
+
+		-Lights - New Styles!
+			Combine old lights in various combinations to make them.
+			Configure with the multimeter. The wrench will only toggle mode on full blocks.
+
+CHANGED:
+	-Most reconfigurable machines now have an "open access" mode, allowing for both input and output
+		on a single side. However, they will not auto-input or auto-output from these sides.
+	-The Fluid Transposer Manager now has stupid-proofing code to guard against mods which are doing
+		really stupid things.
+
+REMOVED:
+	-Textures which are no longer in use (Invar Tools and Armor).
+
+----------------------------------------------------------------------------------------------------
+4.0.0:
+----------------------------------------------------------------------------------------------------
+Welcome to Thermal Expansion 4!
+-Ported to Minecraft 1.7.10.
+
+ADDED:
+	General:
+		-Augment System:
+			Used in Machines, Devices, and Dynamos.
+			Augments change the behavior of blocks they are installed in.
+
+		-Configuration GUI.
+
+		-Security System:
+			Enabled for most blocks.
+			Use a Signalum Security Lock to add a security tab to a block.
+			This allows you to configure who can access that block.
+			This must be done in a crafting GUI - you gotta hold it to claim it.
+
+	Blocks:
+		-Caches - Store a lot of a single thing!
+			Four standard levels - Basic, Hardened, Reinforced, Resonant.
+			Amount can be configured.
+			Creative tier holds up to INT_MAX (approximately 2.1 billion) of something.
+
+		-Plates - Place these on surfaces and have fun. :)
+			Signal Plate - Emits redstone signal at a distance.
+			Impulse Plate - Imparts motion to an entity.
+			Translocation Plate - Teleports entities.
+			All plates can be configured by sneak-using a Multimeter on them.
+
+		-Lights - Lumium Lamps, Radiant Lumium Lamps
+			New 6-Mode lights similar to the Glowstone Illuminator.
+			These are both solid color lights.
+			Radiant Lumium Lamps project a small halo.
+
+		-Machine - Phytogenic Insolator
+			Grows plants using water, fertilizer, and Redstone Flux.
+			Yes, it is spelled correctly.
+			Has a button to lock the left slot to Phyto-Gro/Rich Phyto-Gro.
+			Useful for automation with blue sides.
+			Water can be pumped in from ANY side.
+
+	Items:
+		-Phyto-Gro, Rich Phyto-Gro; used as fertilizer in the Phytogenic Insolator.
+
+		-Redprint - Allows for quick copying of block configurations.
+			Right click a block to set the print.
+			Sneak-use to clear the print.
+			This will generally copy side configuration and redstone settings, if compatible.
+
+		-Satchels - Portable, securable inventories.
+			Four standard levels - Basic, Hardened, Reinforced, Resonant.
+			Can be enchanted to hold more items.
+
+CHANGED:
+	General:
+		-Blocks which were once "securable" in TE3 now require a Signalum Security Lock first.
+
+	Blocks:
+		-Cells:
+			Values for energy sent, received, and capacity are now configurable.
+			Default Cell values are different from those in TE3.
+
+		-Devices:
+			Autonomous Activator:
+				Now requires energy. You knew this was coming. It's pretty awesome. ;)
+
+		-Lights:
+			Now have a configuration GUI. Sneak-use a Multimeter to access it.
+			Can be set to not actually emit light even while on. Some of you have uses for this.
+
+		-Machines:
+			Can now be upgraded by using the appropriate Machine Frame.
+			Machines capabilities scale somewhat with Machine Frame level. Specifically:
+				Energy capacity increases with every level, up to 2.5x of base.
+				Energy reception increases with every level, up to 8x of base.
+				Tank size increases with every level, up to 8x of base.
+				Auto-Transfer (Augment) amount increases with every level, up to 8x of base.
+
+			Now require augments to perform some of their previously basic functionality.
+			Some augments come pre-installed in machines. This is configurable.
+
+			-Induction Smelter:
+				Now has a button to lock the left slot to Sand/Rich Slag/Cinnabar/Pyrotheum.
+				Useful for automation with blue sides.
+
+		-Strongboxes:
+			Can now be enchanted to hold more items.
+
+		-Tanks:
+			Can now be filled from any side.
+			Values for fluid capacity are now configurable.
+
+REMOVED:
+	General:
+		-Ore generation file.
+			Now in Thermal Foundation.
+
+	Blocks:
+		-Energy Conduits, Fluiducts, and Itemducts.
+			Now in Thermal Dynamics.
+			We understand this has left some people confused and/or distressed. Sorry about that.
+
+	Items:
+		-Most basic items, such as Ores, Dusts, Ingots, and Nuggets.
+			Now in Thermal Foundation.
+
+		-Invar Tools and Armor (Except for the BattleWrench).
+			Now in Thermal Foundation.
+
+	Mobs:
+		-Blizzes.
+			Now in Thermal Foundation.
+
+----------------------------------------------------------------------------------------------------

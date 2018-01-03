@@ -1,0 +1,322 @@
+Thermal Dynamics
+
+CHANGELOG
+====================================================================================================
+2.3.10:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Internal refactors and optimizations.
+
+----------------------------------------------------------------------------------------------------
+2.3.9:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Redstone Relays. These transmit redstone signals along duct networks and have 16 channels.
+		(Thanks ImbaKnugel)
+
+----------------------------------------------------------------------------------------------------
+2.3.8:
+----------------------------------------------------------------------------------------------------
+
+CHANGED:
+	-Cover recipe is now hidden from the Crafting Book.
+
+FIXED:
+	-Corner case fixes for cover render crashes.
+	-Leadstone and Cryo Ducts now properly connect.
+
+----------------------------------------------------------------------------------------------------
+2.3.7:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Due to a large number of changes in Forge, 1.12.2 is now a requirement.
+	-Fluxducts now have configurable scaling.
+	-Miscellanous backend optimizations.
+
+----------------------------------------------------------------------------------------------------
+2.3.6:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes and optimization.
+
+----------------------------------------------------------------------------------------------------
+2.3.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes and optimization.
+
+----------------------------------------------------------------------------------------------------
+2.3.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+2.3.3:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Adjusted Fluxducts to more properly see valid receivers.
+
+----------------------------------------------------------------------------------------------------
+2.3.2:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Miscellaneous optimizations and adjustments.
+
+----------------------------------------------------------------------------------------------------
+2.3.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Loads of internal refactors.
+
+----------------------------------------------------------------------------------------------------
+2.3.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.12.
+
+====================================================================================================
+2.2.7:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes and optimization.
+
+----------------------------------------------------------------------------------------------------
+2.2.6:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+2.2.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Corner case crash with servos.
+
+----------------------------------------------------------------------------------------------------
+2.2.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Energy ducts no longer lose energy at inappropriate times.
+
+----------------------------------------------------------------------------------------------------
+2.2.3:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Some optimization on the backend.
+
+FIXED:
+	-Filters are a bit better with non-traditional inventories now.
+	-Various corner cases with Long Range Viaducts.
+
+----------------------------------------------------------------------------------------------------
+2.2.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Retrievers work again. My bad.
+
+----------------------------------------------------------------------------------------------------
+2.2.1:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Fluid filters work again. Sorry about that.
+	-Some generators are stupid liars. Fluxducts now connect to these.
+
+----------------------------------------------------------------------------------------------------
+2.2.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.11.2.
+
+====================================================================================================
+2.0.11:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes and optimization.
+
+----------------------------------------------------------------------------------------------------
+2.0.10:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Miscellaneous minor bugfixes.
+
+----------------------------------------------------------------------------------------------------
+2.0.9:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Corner case crash with servos.
+
+----------------------------------------------------------------------------------------------------
+2.0.8:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Energy ducts no longer lose energy at inappropriate times.
+
+----------------------------------------------------------------------------------------------------
+2.0.7:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Some optimization on the backend.
+
+FIXED:
+	-Filters are a bit better with non-traditional inventories now.
+	-Various corner cases with Long Range Viaducts.
+
+----------------------------------------------------------------------------------------------------
+2.0.6:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Retrievers work again. My bad.
+
+----------------------------------------------------------------------------------------------------
+2.0.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Some generators are stupid liars. Fluxducts now connect to these.
+
+----------------------------------------------------------------------------------------------------
+2.0.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Ducts will now properly connect to things which send energy but don't receive it in all cases.
+	-Energy can now transfer seamlessly through Servos.
+
+----------------------------------------------------------------------------------------------------
+2.0.3:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Added temporary fix for Viaduct camera motion. Still working on it!
+	-Fixed corner case issue involving a race condition.
+	-Improved Round-robin functionality.
+
+----------------------------------------------------------------------------------------------------
+2.0.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Added mitigation for some strange render crashes.
+	-Added mitigation for "null" facing requests.
+	-Fixed corner case issue involving chunk boundaries.
+
+----------------------------------------------------------------------------------------------------
+2.0.1:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Attachments no longer dupe. Sorry. ;)
+	-Mod Name restrictions are obeyed on Filters.
+
+2.0.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.10.2.
+
+ADDED:
+	Blocks:
+		-Signalum-Plated Itemducts - these replace the old redstone-filled ones. And there are Impulse
+			variants.
+
+REMOVED:
+	Blocks:
+		-Luxducts - these will be returning.
+		-Warp Itemducts - these *might* be returning. Probably changing.
+
+	Items:
+		-Redstone Relay - this will also be returning.
+		-Vacuum/Dense Itemducts - these will be returning, but the creation mechanic may change.
+
+====================================================================================================
+1.2.1:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Fixed a minor dupe case with the retriever.
+
+----------------------------------------------------------------------------------------------------
+1.2.0:
+----------------------------------------------------------------------------------------------------
+The "Whoosh" Update
+
+ADDED:
+	Blocks:
+		-Viaducts - use these to travel between places. Whoosh! :)
+		-Long-Range Viaducts - twice as fast, need a straight line.
+		-Linking Viaducts - these need to be chunkloaded, but the rest doesn't!
+
+----------------------------------------------------------------------------------------------------
+1.1.0:
+----------------------------------------------------------------------------------------------------
+The Laminar-Luminar Interlude
+
+ADDED:
+	General:
+		-There is now a config option for the size of the inner duct models. Change these values
+			if you are experiencing texture z-fighting with your GPU setup.
+		-There is now a Covers tab. It can be disabled as a config option.
+
+	Blocks:
+		-Super-Laminar Fluiducts - Unlimited throughput of fluids! They must be filled to capacity
+			before reaching this rate, however.
+		-Luxducts - these glow when given a redstone signal.
+
+	Items:
+		-Redstone Relay - new attachment which allows for redstone signals to be carried along a
+			duct network. The highest input signal dominates. More advanced relays to come in the
+			future.
+
+FIXED:
+	-Fixed an issue where accessing a duct from ForgeDirection.UNKNOWN could cause a crash.
+	-Fixed a corner case extraction issue with Retrievers on Fluiducts.
+
+----------------------------------------------------------------------------------------------------
+1.0.0:
+----------------------------------------------------------------------------------------------------
+Thermal gets Dynamic!
+Mod now exists. Have fun. :)
+
+ADDED:
+	General:
+		-Literally everything is new, relative to the mod.
+
+	Blocks:
+		-Ducts - these transport energy, fluid, or items in various quantities.
+
+	Items:
+		-Duct Attachments - these allow duct ports to do some pretty neat things.
+			Five standard levels - Basic, Hardened, Reinforced, Signalum, Resonant.
+			Capabilities increase with each level.
+			----------------------------------------------------------------------------------------
+			Servos - Extract from an inventory.
+			Filters - Limit what items can enter an inventory.
+			Retrievers - Seek out and pull items to an inventory.
+
+		-Covers - these allow you to hide the beautiful ducts.
+			Combine a Structural Duct with basically any non-tile entity block to make 6 of them.

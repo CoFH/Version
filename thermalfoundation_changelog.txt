@@ -1,0 +1,423 @@
+Thermal Foundation
+
+CHANGELOG
+====================================================================================================
+2.3.10:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Internal refactors and optimizations.
+
+CHANGED:
+	-Tome of Insight now accepts "Essence" and converts it to experience.
+
+----------------------------------------------------------------------------------------------------
+2.3.9:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Storage blocks for Charcoal and Coal Coke.
+
+CHANGED:
+	-Tome of Insight operates in single level increments. Bad vanilla logic still accounted for.
+
+FIXED:
+	-Addressed a few potential but highly unlikely NPEs with raytracing.
+
+----------------------------------------------------------------------------------------------------
+2.3.8:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Tools with AOE Breaking (Hammers) now display breaking effects on every block.
+
+CHANGED:
+	-Hardened Glass is now Wither-proof.
+	-Horse Armor recipes have been adjusted.
+	-More Phyto-Gro is produced using charcoal.
+	-Tome of Insight now takes/gives all XP at once, to correct for bad vanilla logic.
+
+FIXED:
+	-Corrected some colors on bow sprites.
+	-Enchants are more consistent with respect to vanilla tool types.
+
+----------------------------------------------------------------------------------------------------
+2.3.7:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Due to a large number of changes in Forge, 1.12.2 is now a requirement.
+	-Some items have had their registration adjusted. You may see a log message about this when
+		loading an existing world.
+
+ADDED:
+	-New Fluids: Essence of Knowledge (Experience) and Potions (Standard, Splash, Lingering).
+	-New Potion Recipes for the Brewing Stand.
+
+CHANGED:
+	-Adjusted Cryotheum and Pyrotheum Block slow amounts.
+	-All fluid textures now use interpolation.
+	-Creative Tabs have been reorganized.
+	-Minor changes to fluid properties.
+	-Ores which were previously considered "blast furnace" ores are not anymore.
+	-Tools have been reworked on the backend.
+	-Upgrade Items are now part of Thermal Foundation. They have been moved from Thermal Expansion.
+
+----------------------------------------------------------------------------------------------------
+2.3.6:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New item: Aqua-Chow. It's fish bait. :)
+
+FIXED:
+	-Corrected a missing localization for Coal Coke.
+	-Pyrotheum will not harm lava immune mobs.
+
+----------------------------------------------------------------------------------------------------
+2.3.5:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Some new recipes involving Cryotheum.
+	-Plugin for Tinker's Construct.
+
+FIXED:
+	-Cryotheum now freezes things again.
+
+----------------------------------------------------------------------------------------------------
+2.3.4:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-The Forge Lexicon now properly has a max stacksize of 1.
+
+----------------------------------------------------------------------------------------------------
+2.3.3:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Some new recipes involving Cryotheum.
+
+CHANGED:
+	-Forge Lexicon requires Lapis instead of a Diamond.
+
+----------------------------------------------------------------------------------------------------
+2.3.2:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Fluid: Mushroom Stew.
+
+GENERAL:
+	-Optimizations relating to fluids and server-caching.
+
+----------------------------------------------------------------------------------------------------
+2.3.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Loads of internal refactors.
+
+----------------------------------------------------------------------------------------------------
+2.3.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.12.
+
+CHANGED:
+	-Requires CoFH World.
+
+====================================================================================================
+2.2.4:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Armor and tools for Aluminum, Constantan, and Steel.
+
+FIXED:
+	-Issue with crashing with latest Forge caused by Forge fixing a bug. (Yay!)
+
+----------------------------------------------------------------------------------------------------
+2.2.3:
+----------------------------------------------------------------------------------------------------
+
+CHANGED:
+	-Pretty big overhaul with textures and jsons. Texture packs will need updating. Sorry.
+
+----------------------------------------------------------------------------------------------------
+2.2.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Various issues related to Forge Lexicon brought about by Mojang's ridiculousness.
+
+----------------------------------------------------------------------------------------------------
+2.2.1:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Adjusted Clathrate breaking behavior.
+
+----------------------------------------------------------------------------------------------------
+2.2.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.11.2.
+
+====================================================================================================
+2.1.4:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Armor and tools for Aluminum, Constantan, and Steel.
+
+----------------------------------------------------------------------------------------------------
+2.1.3:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Flux-Infused Shield. Damages mobs when used as a weapon or when blocking.
+
+CHANGED:
+	-Pretty big overhaul with textures and jsons. Texture packs will need updating. Sorry.
+
+----------------------------------------------------------------------------------------------------
+2.1.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Adjusted Clathrate breaking behavior.
+
+----------------------------------------------------------------------------------------------------
+2.1.1:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Blocks/Items: Ore Clathrates.
+	-World generation for these, including crude oil. Check your /config/cofh/world folder for
+		values!
+
+----------------------------------------------------------------------------------------------------
+2.1.0:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Hardened Glass Blocks now tint beacon beams.
+	-New Fluids: Sap and Syrup.
+
+FIXED:
+	-Fixed a minor issue with elemental sounds not always playing correctly on Sponge servers.
+	-Shovels can now create path blocks.
+
+----------------------------------------------------------------------------------------------------
+2.0.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Minor bugfix with configuration files for equipment. Sorry about that.
+
+2.0.4:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Elemental damage effects now have config options.
+	-Various config options for tool enabling/disabling.
+
+CHANGED:
+	-Blitz now causes Blindness instead of Nausea.
+
+	-The following non-vanilla equipment is now disabled by default:
+		-Bows
+		-Fishing Rods
+		-Shears
+		-Shields
+		-Wood Sickle
+		-Wood Hammer
+		-Stone Sickle
+		-Stone Hammer
+
+	Don't worry, they won't disappear from existing worlds, but you will have to set the config
+		option if you want them to be craftable.
+
+FIXED:
+	-Lexicon now saves preferences through death. Unfortunately, preferences will be reset during
+		this update. Sorry.
+
+----------------------------------------------------------------------------------------------------
+2.0.3:
+----------------------------------------------------------------------------------------------------
+
+CHANGED:
+	-Mining Level of Aluminum Ore is now 1.
+	-Wrench behavior has been slightly altered, deferring to Forge in more cases.
+
+----------------------------------------------------------------------------------------------------
+2.0.2:
+----------------------------------------------------------------------------------------------------
+
+CHANGED:
+	-Aluminum Ore has a new texture.
+	-Steel Blend no longer craftable.
+
+FIXED:
+	-Hammers no longer have the Sickle texture. Our bad.
+
+----------------------------------------------------------------------------------------------------
+2.0.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Rewrite of tools and armor. We tried to be clever, but there are too many corner cases. Sorry.
+
+----------------------------------------------------------------------------------------------------
+2.0.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Ported to Minecraft 1.10.2.
+
+ADDED:
+	-A lot of the things that used to be in Thermal Expansion (Crescent Hammer, Phyto-Gro, etc.),
+		as well as a host of new items in general.
+
+====================================================================================================
+1.2.6:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Final 1.7.10 release.
+
+----------------------------------------------------------------------------------------------------
+1.2.5:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Vanilla versions of stone tools wanting stone ingots instead of cobblestone
+	-Vanilla tools still showing in NEI when disabled
+
+----------------------------------------------------------------------------------------------------
+1.2.4:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Vanilla versions of bows/sickles/fishing rods/shears where not already present.
+
+----------------------------------------------------------------------------------------------------
+1.2.3:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Corrected an issue with corner-case behavior in the Lexicon.
+
+----------------------------------------------------------------------------------------------------
+1.2.2:
+----------------------------------------------------------------------------------------------------
+
+FIXED:
+	-Fix issue where items were not always properly hid in Creative mode when disabled.
+
+----------------------------------------------------------------------------------------------------
+1.2.1:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-There is now a hook to allow specific items to be disallowed for conversion in the Forge
+		Lexicon.
+
+FIXED:
+	-Fix various localization issues with Turkish.
+
+----------------------------------------------------------------------------------------------------
+1.2.0:
+----------------------------------------------------------------------------------------------------
+The Elemental Update.
+
+ADDED:
+	General:
+		-Management for the Forge Lexicon. Whitelist and blacklist support. Invalid items can still
+			be browsed, but conversion is prohibited.
+
+	Blocks:
+		-Tectonic Petrotheum:
+			Fluid block which shatters stone.
+			Confers resistance, mining speed, and night vision.
+
+		-Zephyrean Aerotheum:
+			Fluid block, lighter than air. Deflects projectiles.
+			Confers water breathing and brief invisibility.
+
+	Items:
+		-Forge Lexicon:
+			When not empowered, you can use it to set your "preferred" versions of ores.
+			When empowered, it will automatically convert any ores you pick up to your preferred
+				versions.
+			Also when empowered, you may use it to convert items between Ore Dictionary equivalents.
+
+			If you have the Baubles Mod installed, you may wear the Lexicon as a Belt Slot Bauble.
+
+		-Material:
+			Blitz Rod, Blitz Powder, Basalz Rod, Basalz Powder, Aerotheum Dust, Petrotheum Dust
+
+	Mobs:
+		-Blitz:
+			Air elemental. Throws bolts which apply confusion on impact. Kind of a jerk.
+			Found in Plains and Sandy Biomes.
+			Drops Blitz Rods and Niter.
+
+		-Basalz:
+			Earth elemental. Throws bolts which apply weakness on impact. Also a jerk.
+			Found in Mountain and Wasteland Biomes.
+			Drops Basalz Rods and Obsidian Dust.
+
+CHANGED:
+	-Artwork for some of the old materials has changed to ensure a consistent style with the new
+		dusts.
+	-Blizzes no longer assault random animals. They're still jerks, but they don't kick puppies
+		anymore.
+
+FIXED:
+	-Torches may now be placed on all Storage Blocks.
+
+----------------------------------------------------------------------------------------------------
+1.1.0:
+----------------------------------------------------------------------------------------------------
+The Armory Update.
+
+ADDED:
+	General:
+		-Configuration GUI.
+
+		-Ore Generation File.
+			Generation file has been migrated here. If you had a beta version of Thermal Expansion,
+			that file should automatically be renamed.
+	Items:
+		-Armor:
+			Full armor set for each metal.
+			This includes helm, chestplate, legs, and boots.
+
+		-Tools:
+			Full tool set for each metal.
+			This includes a Pickaxe, Axe, Shovel, Hoe, Sword, Shears, Sickle, Fishing Rod, and Bow.
+
+	Mobs:
+		-Blizz:
+			Spawn logic has been significantly overhauled. Winter is coming.
+
+----------------------------------------------------------------------------------------------------
+1.0.0:
+----------------------------------------------------------------------------------------------------
+Welcome to Thermal Foundation!
+
+ADDED:
+	Items:
+		-All of the foundational materials - ores, dusts, ingots, nuggets, and storage blocks from
+			Thermal	Expansion have been migrated to this mod. This includes Pyrotheum, Cryotheum,
+			and Blizz powder.
+
+	Mobs:
+		-Blizzes have moved here - the frosty cousins (and arch nemeses) of Blazes!
+
+----------------------------------------------------------------------------------------------------

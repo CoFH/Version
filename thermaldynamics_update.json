@@ -1,0 +1,50 @@
+{
+	"homepage": "http://www.teamcofh.com/downloads/",
+	"1.12.2": {
+		"2.3.10": "Internal refactors.",
+		"2.3.9": "Return of the Redstone Relay.",
+		"2.3.8": "Internal refactors. Minor bugfixes.",
+		"2.3.7": "Added config options for Fluxduct RF scaling. First 1.12.2 required release."
+	},
+	"1.12": {
+		"2.3.6": "Minor bugfixes and recipe adjustments.",
+		"2.3.5": "Lots of optimizations and bugfixes.",
+		"2.3.4": "Minor bugfixes.",
+		"2.3.3": "Minor change to Fluxduct backend.",
+		"2.3.2": "Backend updates and optimizations.",
+		"2.3.1": "Lots of internal refactoring.",
+		"2.3.0": "Initial 1.12 release!"
+	},
+	"1.11.2": {
+		"2.2.7": "Okay I lied. Minor bugfixes.",
+		"2.2.6": "Final 1.11.2 release.",
+		"2.2.5": "Fix for a servo crash.",
+		"2.2.4": "Fix for a corner case with Fluxducts.",
+		"2.2.3": "Fixes and optimizations for Viaducts and Filters.",
+		"2.2.2": "Retrievers work again. Oops.",
+		"2.2.1": "Fluxducts now connect to stupid tiles too.",
+		"2.2.0": "Initial 1.11.2 release!"
+	},
+	"1.10.2": {
+		"2.0.11": "Okay I lied. Minor bugfixes.",
+		"2.0.10": "Final 1.10.2 release.",
+		"2.0.9": "Fix for a servo crash.",
+		"2.0.8": "Fix for a corner case with Fluxducts.",
+		"2.0.7": "Fixes and optimizations for Viaducts and Filters.",
+		"2.0.6": "Retrievers work again. Oops.",
+		"2.0.5": "Fluxducts now connect to stupid tiles too.",
+		"2.0.4": "Optimizations and connection fixes.",
+		"2.0.3": "Fixed round robin and a corner crash.",
+		"2.0.2": "Bugfixes. We all like these.",
+		"2.0.1": "We all knew there would be bugs.",
+		"2.0.0": "Initial 1.10.2 release!"
+	},
+	"promos": {
+		"1.12-latest": "2.3.6",
+		"1.12-recommended": "2.3.6",
+		"1.11.2-latest": "2.2.7",
+		"1.11.2-recommended": "2.2.7",
+		"1.10.2-latest": "2.0.11",
+		"1.10.2-recommended": "2.0.11"
+	}
+}
