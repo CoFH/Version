@@ -1,0 +1,22 @@
+Thermal Innovation
+
+CHANGELOG
+====================================================================================================
+0.1.0:
+----------------------------------------------------------------------------------------------------
+Welcome to Thermal Innovation!
+
+Technically, this mod can be played without Thermal Expansion. However, I wouldn't recommend it just
+yet. Flux Capacitors and Reservoirs will be extremely useful. :)
+
+ADDED:
+	Items:
+		-Fluxbores. They're drills. They're Shovels + Pickaxes, with area effect (at higher tiers)
+		
+		-Fluxomagnets. Yep - magnets. They have filtering capabilities and you can actively use them
+			to pull things from far away as well as passively.
+		
+		-Hypoinfusers - Potion Injectors! They can auto-infuse the player and can also be used to
+			inject a Potion into a target entity.
+
+----------------------------------------------------------------------------------------------------

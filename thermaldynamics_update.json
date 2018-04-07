@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"2.3.11": "Bugfixes and optimizations.",
 		"2.3.10": "Internal refactors.",
 		"2.3.9": "Return of the Redstone Relay.",
 		"2.3.8": "Internal refactors. Minor bugfixes.",
@@ -40,6 +41,8 @@
 		"2.0.0": "Initial 1.10.2 release!"
 	},
 	"promos": {
+		"1.12.2-latest": "2.3.11",
+		"1.12.2-recommended": "2.3.11",
 		"1.12-latest": "2.3.6",
 		"1.12-recommended": "2.3.6",
 		"1.11.2-latest": "2.2.7",

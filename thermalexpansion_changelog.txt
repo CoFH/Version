@@ -2,6 +2,33 @@ Thermal Expansion
 
 CHANGELOG
 ====================================================================================================
+5.3.11:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Internal refactors and optimizations.
+
+ADDED:
+	-New Augments:
+		Clastic Deposition - Allows the Igneous Extruder to make sand and gravel.
+
+	-New machine process recipes.
+	-Lots of new Plugin support.
+
+	-New Config Options:
+		Energy Scale factor for Machines. It's advanced. Be real sure you know what you're doing.
+		Disable Auto-Input and Auto-Output for Machines and Devices
+		Decoctive Diffuser can have its range adjusted for different Potion fluids.
+
+CHANGED:
+	-Decoctive Diffuser has had its base radius doubled.
+	-Minor recipe adjustments.
+
+FIXED:
+	-Machine recipes and JEI categories have been decoupled.
+	-Minor change to Insolator OreDict logic to prevent other mods from sabotaging it.
+
+----------------------------------------------------------------------------------------------------
 5.3.10:
 ----------------------------------------------------------------------------------------------------
 

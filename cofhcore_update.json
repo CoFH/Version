@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"4.3.11": "Soulbound Enchantment. Also bugfixes, refactors, the usual.",
 		"4.3.10": "Internal refactors and optimizations.",
 		"4.3.9": "Backend stuff for upcoming features.",
 		"4.3.8": "Lots of internal refactors and optimizations.",
@@ -45,6 +46,8 @@
 		"4.0.0": "Initial 1.10.2 release!"
 	},
 	"promos": {
+		"1.12.2-latest": "4.3.11",
+		"1.12.2-recommended": "4.3.11",
 		"1.12-latest": "4.3.6",
 		"1.12-recommended": "4.3.6",
 		"1.11.2-latest": "4.2.8",

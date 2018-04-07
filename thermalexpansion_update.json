@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"5.3.11": "New augment and a lot of Plugin support.",
 		"5.3.10": "New machine - an autocrafter. And Morb processing!",
 		"5.3.9": "Morbs. And a void satchel.",
 		"5.3.8": "Overhauls to a couple of machines. New item - Reservoir. New satchel functionality. New augments! Go read the full changelog.",
@@ -44,6 +45,8 @@
 		"5.0.0": "Thermal Expansion 5 release!"
 	},
 	"promos": {
+		"1.12.2-latest": "5.3.11",
+		"1.12.2-recommended": "5.3.11",
 		"1.12-latest": "5.3.6",
 		"1.12-recommended": "5.3.6",
 		"1.11.2-latest": "5.2.7",

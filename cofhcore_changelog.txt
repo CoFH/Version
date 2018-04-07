@@ -2,6 +2,20 @@ CoFH Core
 
 CHANGELOG
 ====================================================================================================
+4.3.11:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Enchantment: Soulbound.
+		Three levels. Items enchanted with this stay with you when you die. There is a chance of the Enchantment losing one level when this happens. The higher the level, the lower the chance. It is expressed mathematically as 1 / (1 + level) of NOT losing the level.
+
+CHANGED:
+	-Smelting Enchantment has better compatibility with other Enchantments.
+
+GENERAL:
+	-Internal refactors and optimizations.
+
+----------------------------------------------------------------------------------------------------
 4.3.10:
 ----------------------------------------------------------------------------------------------------
 

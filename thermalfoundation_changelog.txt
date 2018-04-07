@@ -6,6 +6,20 @@ CHANGELOG
 ----------------------------------------------------------------------------------------------------
 
 GENERAL:
+	-Minor adjustment to prevent Forge derpiness with multiple Steams.
+	-Shields have new models and slightly altered behavior.
+
+ADDED:
+	-Alternate recipes for Iron Gears.
+
+CHANGED:
+	-Recipes for Elemental Dusts have been adjusted.
+	
+----------------------------------------------------------------------------------------------------
+2.3.10:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
 	-Internal refactors and optimizations.
 
 CHANGED:
