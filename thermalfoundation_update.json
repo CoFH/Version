@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"2.3.12": "Fixes a rather persistent fluid bug with Steam.",
 		"2.3.11": "New shield models! And optimizations.",
 		"2.3.10": "Internal refactors and optimizations. Support for Essence in the Tome of Knowledge.",
 		"2.3.9": "Charcoal and Coal Coke blocks.",
