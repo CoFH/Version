@@ -1,55 +1,17 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
-		"4.3.11": "Soulbound Enchantment. Also bugfixes, refactors, the usual.",
-		"4.3.10": "Internal refactors and optimizations.",
-		"4.3.9": "Backend stuff for upcoming features.",
-		"4.3.8": "Lots of internal refactors and optimizations.",
-		"4.3.7": "Backend updates and optimizations. First 1.12.2 required release."
-	},
-	"1.12": {
-		"4.3.6": "New enchants!",
-		"4.3.5": "Backend updates and optimizations.",
-		"4.3.4": "Minor bugfixes.",
-		"4.3.3": "Features to support quivers. Backend optimizations.",
-		"4.3.2": "Backend updates and optimizations.",
-		"4.3.1": "Just an update.",
-		"4.3.0": "Initial 1.12 release!"
+		"4.4.0": "Large internal refactors. New config options."
 	},
 	"1.11.2": {
-		"4.2.8": "Okay I lied. Minor bugfixes.",
-		"4.2.7": "Final 1.11.2 release.",
-		"4.2.6": "Just an update.",
-		"4.2.5": "Fixes corner case crase with German keyboards.",
-		"4.2.4": "Fixes an ASM issue.",
-		"4.2.3": "More backend stuff. Uninteresting but useful.",
-		"4.2.2": "Backend optimizations and support.",
-		"4.2.1": "Fix flat bedrock generation crash.",
-		"4.2.0": "Initial 1.11.2 release!"
+		"4.2.8": "Final 1.11.2 release."
 	},
 	"1.10.2": {
-		"4.1.12": "Okay I lied. Minor bugfixes.",
-		"4.1.11": "Final 1.10.2 release.",
-		"4.1.10": "Just an update.",
-		"4.1.9": "Fixes corner case crase with German keyboards.",
-		"4.1.8": "Fixes an ASM issue.",
-		"4.1.7": "More backend stuff. Uninteresting but useful.",
-		"4.1.6": "Backend optimizations and support.",
-		"4.1.5": "More backend work.",
-		"4.1.4": "Backend optimizations.",
-		"4.1.3": "Backend optimizations and updates.",
-		"4.1.2": "More bugfixes and refactors. Craftable horse armor and saddles.",
-		"4.1.1": "Bugfixes to Tools and internal refactors.",
-		"4.1.0": "Fluid rendering overhaul. Tons of internal refactors.",
-		"4.0.2": "More bugfixes. Shield support.",
-		"4.0.1": "Bugfixes!",
-		"4.0.0": "Initial 1.10.2 release!"
+		"4.1.12": "Final 1.10.2 release."
 	},
 	"promos": {
-		"1.12.2-latest": "4.3.11",
-		"1.12.2-recommended": "4.3.11",
-		"1.12-latest": "4.3.6",
-		"1.12-recommended": "4.3.6",
+		"1.12.2-latest": "4.4.0",
+		"1.12.2-recommended": "4.4.0",
 		"1.11.2-latest": "4.2.8",
 		"1.11.2-recommended": "4.2.8",
 		"1.10.2-latest": "4.1.12",

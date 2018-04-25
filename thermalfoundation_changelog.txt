@@ -2,6 +2,24 @@ Thermal Foundation
 
 CHANGELOG
 ====================================================================================================
+2.4.0:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New item: Pigments. They're generic dyes in the basic 16 colors.
+
+CHANGED:
+	-Elemental Dust recipes have changed slightly :)
+	-Sneaking while using certain AoE tools temporarily disables the AoE.
+	-CoFH World is no longer a HARD dependency. You better be real sure you know what you're doing
+		before you remove it or opt to not use it though. :)
+
+GENERAL:
+	-By default, all Thermal mods will now share some common Creative Tabs. You can disable This
+		option if you like.
+	-Lots of backend work to support new features.
+	
+----------------------------------------------------------------------------------------------------
 2.3.12:
 ----------------------------------------------------------------------------------------------------
 

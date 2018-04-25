@@ -1,10 +1,10 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
-		"0.1.0": "Initial release! Mod now exists!"
+		"0.2.0": "Added Saws and Quivers."
 	},
 	"promos": {
-		"1.12.2-latest": "0.1.0",
-		"1.12.2-recommended": "0.1.0"
+		"1.12.2-latest": "0.2.0",
+		"1.12.2-recommended": "0.2.0"
 	}
 }

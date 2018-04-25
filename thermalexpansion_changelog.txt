@@ -2,12 +2,48 @@ Thermal Expansion
 
 CHANGELOG
 ====================================================================================================
+5.4.0:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New Devices:
+		Factorizer. It performs storage conversions!
+		Creature Encaptulator - Uses Morbs to catch mobs. :)
+
+	-Capacitors, Reservoirs, and Satchels can be colored.
+		There will be an item coming later to better facilitate this. Dyes work though!
+
+	-Capacitors and Reservoirs now work in Bauble slots.
+
+	-More plugin support. Astral Sorcery, Ender IO, Thaumcraft, and others.
+
+CHANGED:
+	-Capacitor modes have been changed! The new modes are:
+		-Charge Equipment (Held Items, Worn Items, Baubles)
+		-Charge Inventory
+		-Charge All
+	-Elemental Dust recipes have changed slightly :)
+	-The Compactor no longer has a storage mode or Modes at all. Augments now change the default
+		operation of the device.
+	-Potions can now only be refined to Level 4. The vanilla game just had too many edge cases with
+		level 5 effects.
+	-Sawmill costs have been reworked substantially. Some "recycling" recipes have been moved to
+		the Pulverizer. Others have been removed entirely.
+	-Sawmill recipe has been changed.
+
+GENERAL:
+	-Lots of backend work and refactoring. Like, a lot.
+	-There has been a LOT of work done on a json recipe system. It's not 100% ready at this time
+		so isn't available yet for open config. But that's coming. Still fleshing it out.
+	-Various XP Fluids are automatically unified in the Arcane Ensorcellator.
+	
+----------------------------------------------------------------------------------------------------
 5.3.12:
 ----------------------------------------------------------------------------------------------------
 
 CHANGED:
 	-Adjusted insertion and extraction logic from various machine tanks.
-	-Potion refining now produces a bit more at each level, ending at 100 mB for level 5 and not 50.
+	-Potion refining now produces a bit more at each level, ending at 100 mB for level 5.
 
 ----------------------------------------------------------------------------------------------------
 5.3.11:
@@ -24,7 +60,7 @@ ADDED:
 	-Lots of new Plugin support.
 
 	-New Config Options:
-		Energy Scale factor for Machines. It's advanced. Be real sure you know what you're doing.
+		Energy Scale factor for Machines. It's advanced. Be sure you know what you're doing.
 		Disable Auto-Input and Auto-Output for Machines and Devices
 		Decoctive Diffuser can have its range adjusted for different Potion fluids.
 
@@ -58,11 +94,12 @@ ADDED:
 	-Plugin Support for Ice and Fire.
 
 CHANGED:
-	-All blocks can now be filled/drained by hand, even the Fluid Transposer. Some machines may need
-		to be OFF to allow for fluid to be drained.
+	-All blocks can now be filled/drained by hand, even the Fluid Transposer. Some machines may
+		need to be OFF to allow for fluid to be drained.
 	-Cache behavior has been changed internally, for better crossmod compatibility.
 	-Comparator behavior has been improved for the Cell, Tank, and Cache.
-	-Many recipes have been rebalanced. In general, dynamos and augments are all slightly cheaper.
+	-Many recipes have been rebalanced. In general, dynamos and augments are all slightly
+		cheaper.
 
 ----------------------------------------------------------------------------------------------------
 5.3.9:
@@ -70,8 +107,8 @@ CHANGED:
 
 ADDED:
 	-New Items:
-		Morbs. These allow for mobs to be caught. Basic Morbs have a 25% reuse chance. Adding some
-		signalum makes this 100%. (Thanks ImbaKnugel)
+		Morbs. These allow for mobs to be caught. Basic Morbs have a 25% reuse chance.
+		Adding some signalum makes this 100%. (Thanks ImbaKnugel)
 
 		Void Satchel. It's a satchel that voids things. Be careful.
 
@@ -92,10 +129,12 @@ ADDED:
 	-New Augments:
 		Gearworking Die - Allows the Compactor to create Gears from 4 Ingots.
 
-		Parabolic Flux Coupling - Converts the Energetic Infuser into a wireless charger. Only Flux
-			Capacitors will be charged. This is very intentional. (Thanks ImbaKnugel)
+		Parabolic Flux Coupling - Converts the Energetic Infuser into a wireless charger.
+			Only Flux Capacitors will be charged. This is very intentional.
+			(Thanks ImbaKnugel)
 
-		Disjunctive Extraction - Allows the Enervation Dynamo to destroy enchanted items for RF.
+		Disjunctive Extraction - Allows the Enervation Dynamo to destroy enchanted items
+			for RF.
 
 	-New Item: Reservoir - It's a multi-bucket fluid "capacitor" of sorts.
 
@@ -104,7 +143,8 @@ ADDED:
 CHANGED:
 	-Device recipes have been changed - more Iron, less Tin overall.
 	-Fluid Transposer behavior has been adjusted to accommodate partial fills/drains.
-	-Igneous Extruder and Glacial Precipitator have been rewritten and have new GUIs and backends.
+	-Igneous Extruder and Glacial Precipitator have been rewritten and have new GUIs and
+		backends.
 
 FIXED:
 	-Charger and Transposer should no longer have "orphan" processes in some cases.

@@ -2,12 +2,27 @@ CoFH Core
 
 CHANGELOG
 ====================================================================================================
+4.4.0:
+----------------------------------------------------------------------------------------------------
+
+CHANGED:
+	-Enchantments and Potions can be disabled entirely, if you so choose.
+	-Potions are now only created up to Level 4. You may be missing some registry entries in
+		existing worlds. THIS IS HARMLESS.
+
+GENERAL:
+	-Lots of work under the hood. Tons of new stuff necessitating that internally, we bump to
+		a new major.
+
+----------------------------------------------------------------------------------------------------
 4.3.11:
 ----------------------------------------------------------------------------------------------------
 
 ADDED:
 	-New Enchantment: Soulbound.
-		Three levels. Items enchanted with this stay with you when you die. There is a chance of the Enchantment losing one level when this happens. The higher the level, the lower the chance. It is expressed mathematically as 1 / (1 + level) of NOT losing the level.
+		Three levels. Items enchanted with this stay with you when you die. There is a chance of
+			the Enchantment losing one level when this happens. The higher the level, the lower the
+			chance. It is expressed mathematically as 1 / (1 + level) of NOT losing the level.
 
 CHANGED:
 	-Smelting Enchantment has better compatibility with other Enchantments.

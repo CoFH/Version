@@ -8,8 +8,8 @@ You can of course clone/copy any of this, but we have no idea why you'd want to.
 
 #### Homepage
 
-[TeamCoFH Home Page](http://teamcofh.com/)
+[TeamCoFH Home Page](https://teamcofh.com/)
 
-[IRC #ThermalExpansion on esper.net](http://webchat.esper.net/?nick=ThermalWiki....&channels=ThermalExpansion)
+[CoFH Discord Channel](https://discordapp.com/invite/uRKrnbH)
 
-©2012-2015 Cult of the Full Hub / Team CoFH / CoFH
+©2012-2018 Cult of the Full Hub / Team CoFH / CoFH

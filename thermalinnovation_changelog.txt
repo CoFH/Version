@@ -2,6 +2,32 @@ Thermal Innovation
 
 CHANGELOG
 ====================================================================================================
+2.4.0:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Items:
+		-Fluxsaws. They're power saws. Basically Shears + Axe (+ Sword, kinda). Area Effect Modes.
+
+		-Alchemical Quivers. These hold Potions and Arrows. They'll imbue any arrows fired with the
+			potion effect. Compatible with TF and RSA bows. Other mods have to use the API to
+			fully integrate with the Quiver system.
+
+CHANGED:
+	-All items are colorable.
+		There will be an item coming later to better facilitate this. Dyes work though!
+	-Sneak-using a Hypoinfuser will self-inject. Useful for health potions!
+	-Magnets and Hypoinfusers can be used in Bauble slots.
+	-Small adjustments to dig speed and item stats.
+	-Sneaking while using an AoE tool temporarily disables the AoE.
+	-The 5x5 mode on the Fluxbore is a bit easier to use.
+	-Tool recipes have been updated and are generally more expensive.
+
+GENERAL:
+	-Updates to spritework.
+	-Lots of backend work to support new features.
+	
+----------------------------------------------------------------------------------------------------
 0.1.0:
 ----------------------------------------------------------------------------------------------------
 Welcome to Thermal Innovation!
