@@ -2,6 +2,25 @@ Thermal Expansion
 
 CHANGELOG
 ====================================================================================================
+5.4.1:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Improved EvilCraft plugin support.
+	-Improved innate ore support in various machines.
+	-Thaumcraft clusters have more consistent processing behavior now.
+
+CHANGED:
+	-Fluid Buffer granularity has been tweaked to allow for much finer control.
+
+FIXED:
+	-Fixed an edge case where the Fluid Buffer could not be extracted from.
+	-Level 2 "Long" Potions can now be refined.
+
+GENERAL:
+	-Inventory Tweaks support has returned to Satchels.
+
+----------------------------------------------------------------------------------------------------
 5.4.0:
 ----------------------------------------------------------------------------------------------------
 
