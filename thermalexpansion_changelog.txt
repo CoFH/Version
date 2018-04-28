@@ -2,6 +2,22 @@ Thermal Expansion
 
 CHANGELOG
 ====================================================================================================
+5.4.2:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-Some Specialization Augments can now be explicitly disabled if you wish to effectively prevent
+		or gate those particular machine functions.
+
+FIXED:
+	-Coloration recipes have been tweaked slightly in code. Enchanted items are now dyeable.
+	-Item enchanting is a bit more consistent in what should apply.
+	
+GENERAL:
+	-Backend work and migration of some files to CoFHCore.
+	-IMC Handling has been adjusted to support the new Compactor framework.
+
+----------------------------------------------------------------------------------------------------
 5.4.1:
 ----------------------------------------------------------------------------------------------------
 
