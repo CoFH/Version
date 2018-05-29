@@ -2,6 +2,16 @@ Redstone Arsenal
 
 CHANGELOG
 ====================================================================================================
+2.5.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Minor update, but pulls in breaking changes from CoFHCore. So it's a major update. ;)
+
+ADDED:
+	-Wrench support for Buildcraft and EnderIO.
+	
+----------------------------------------------------------------------------------------------------
 2.4.2:
 ----------------------------------------------------------------------------------------------------
 
@@ -20,12 +30,12 @@ FIXED:
 2.4.0:
 ----------------------------------------------------------------------------------------------------
 
+GENERAL:
+	-Lots of backend work to support new features.
+
 CHANGED:
 	-Sneaking while using certain AoE tools temporarily disables the AoE.
 	-The 5x5 mode (Empowered) on the Hammer is a bit easier to use.
-
-GENERAL:
-	-Lots of backend work to support new features.
 	
 ----------------------------------------------------------------------------------------------------
 2.3.11:

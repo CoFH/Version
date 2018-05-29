@@ -2,6 +2,29 @@ Thermal Foundation
 
 CHANGELOG
 ====================================================================================================
+2.5.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Minor update, but pulls in breaking changes from CoFHCore. So it's a major update. ;)
+
+ADDED:
+	-Biomass, Bioblend, and associated fluids. (Biocrude, Seed Oil, Grassoline)
+	-Horse armors in various metals.
+	-Pyrotheum-based crafting table recipes for Hardened Glass.
+
+	-CTM support for Hardened Glass.
+	-Wrench support for Buildcraft and EnderIO.
+
+CHANGED:
+	-Default worldgen files have been altered to use properties instead of metadata.
+	-Holding a Redprint or Signalum Security Lock in your offhand will automatically attempt to use
+		it when placing a block supporting those features.
+
+FIXED:
+	-Various recipes now use sticks and not strings. Woops.
+	
+----------------------------------------------------------------------------------------------------
 2.4.1:
 ----------------------------------------------------------------------------------------------------
 
@@ -22,7 +45,7 @@ CHANGED:
 		before you remove it or opt to not use it though. :)
 
 GENERAL:
-	-By default, all Thermal mods will now share some common Creative Tabs. You can disable This
+	-By default, all Thermal mods will now share some common Creative Tabs. You can disable this
 		option if you like.
 	-Lots of backend work to support new features.
 	

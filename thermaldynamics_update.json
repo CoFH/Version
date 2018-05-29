@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"2.5.0": "Backend changes. Support for custom Attachments.",
 		"2.4.1": "Refactors, small optimization.",
 		"2.4.0": "Large internal refactors."
 	},
@@ -11,8 +12,8 @@
 		"2.0.11": "Final 1.10.2 release."
 	},
 	"promos": {
-		"1.12.2-latest": "2.4.1",
-		"1.12.2-recommended": "2.4.1",
+		"1.12.2-latest": "2.5.0",
+		"1.12.2-recommended": "2.5.0",
 		"1.11.2-latest": "2.2.7",
 		"1.11.2-recommended": "2.2.7",
 		"1.10.2-latest": "2.0.11",

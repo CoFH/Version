@@ -2,31 +2,53 @@ CoFH Core
 
 CHANGELOG
 ====================================================================================================
-4.4.1:
+4.5.0:
 ----------------------------------------------------------------------------------------------------
 
+GENERAL:
+	-Lots of refactoring and backend changes.
+
+ADDED:
+	-New filter GUIs for various things.
+	-New Enchantment - Smashing! It pairs well with Smelting. ;)
+
 CHANGED:
-	-The Soulbound enchant can be configured to be permanent, if so desired.
+	-Multishot arrows are now slightly less accurate. But they can all hit the same target. >:)
+	-Quiver API has been changed.
+	-Redstone responsiveness has been changed for many blocks.
+
+FIXED:
+	-Dye removal recipes have been fixed.
+	
+----------------------------------------------------------------------------------------------------
+4.4.1:
+----------------------------------------------------------------------------------------------------
 
 GENERAL:
 	-Refactors which make things like standalone Tesseracts much easier. >.>
 
+CHANGED:
+	-The Soulbound enchant can be configured to be permanent, if so desired.
+
 ----------------------------------------------------------------------------------------------------
 4.4.0:
 ----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Lots of work under the hood. Tons of new stuff necessitating that internally, we bump to
+		a new major.
 
 CHANGED:
 	-Enchantments and Potions can be disabled entirely, if you so choose.
 	-Potions are now only created up to Level 4. You may be missing some registry entries in
 		existing worlds. THIS IS HARMLESS.
 
-GENERAL:
-	-Lots of work under the hood. Tons of new stuff necessitating that internally, we bump to
-		a new major.
-
 ----------------------------------------------------------------------------------------------------
 4.3.11:
 ----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Internal refactors and optimizations.
 
 ADDED:
 	-New Enchantment: Soulbound.
@@ -36,9 +58,6 @@ ADDED:
 
 CHANGED:
 	-Smelting Enchantment has better compatibility with other Enchantments.
-
-GENERAL:
-	-Internal refactors and optimizations.
 
 ----------------------------------------------------------------------------------------------------
 4.3.10:

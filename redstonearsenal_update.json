@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"2.5.0": "Backend changes, more wrench support.",
 		"2.4.2": "Minor fix to Fishing Rod.",
 		"2.4.1": "Minor fix to Sword enchantability.",
 		"2.4.0": "Large internal refactors."
@@ -12,8 +13,8 @@
 		"2.1.3": "Final 1.10.2 release."
 	},
 	"promos": {
-		"1.12.2-latest": "2.4.2",
-		"1.12.2-recommended": "2.4.2",
+		"1.12.2-latest": "2.5.0",
+		"1.12.2-recommended": "2.5.0",
 		"1.11.2-latest": "2.2.6",
 		"1.11.2-recommended": "2.2.6",
 		"1.10.2-latest": "2.1.3",

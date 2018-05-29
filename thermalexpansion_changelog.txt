@@ -2,8 +2,62 @@ Thermal Expansion
 
 CHANGELOG
 ====================================================================================================
+5.5.0:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-We've updated our privacy policy.*
+
+	-Lots of new config options. These in particular are notable:
+		The number of Augment Slots for Dynamos and Machines can be set for each level.
+		
+		There is a config option to disable upgrade functionality. This only applies to in-world
+		upgrades.
+
+		The Fisher and Tapper can be configured to *require* bait or fertilizer to produce stuff.
+
+	-Lots of Plugin updates.
+	-JSON-Based Content Addition System.
+		This can be considered partially complete - not all Machines are supported, and not all
+		recipe styles are supported either. Some hardcoding is required due to the strange way that
+		Minecraft deals with certain items. Lookin' at you, Potions.
+
+		There will be more on this later and the website will be updated with the default content
+		files and examples. But basically, you can add/overwrite a lot of default recipes and fuels
+		in the mod, and set the "Oredict" defaults for many outputs. Removal is currently not
+		supported.
+
+		So, if you don't agree with some particular value in TE, you might be able to change it now!
+
+ADDED:
+	-New Augment:
+		-Agitating Manifold (Compression Dynamo): greatly improves power output	and efficiency when
+			using Refined Biofuel - "Grassoline".
+	-New Device:
+		Vacuumulator. It sucks up items in an area and has configurable filtering.
+
+	-Biofuel processing line. You'll need a Sawmill.
+	-GUI Tooltips for Dynamo Fuels; values are specific to *that* Dynamo, including augs/coolant.
+	-Reservoirs now render the fluid contained within.
+
+CHANGED:
+	-Coolants and Fuels have been rebalanced a bit. This includes a substantial "nerf" to Tree Oil.
+	-Item Allocator now has configurable filtering to determine what it will accept/transfer. :)
+	-Some processing recipes have been adjusted.
+
+FIXED:
+	-Dye removal recipes have been fixed for the Reservoir.
+
+*We don't have a privacy policy. This is a joke. There is no telemetry  or data mining/scraping in
+	any CoFH mod.
+
+----------------------------------------------------------------------------------------------------
 5.4.2:
 ----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Backend work and migration of some files to CoFHCore.
+	-IMC Handling has been adjusted to support the new Compactor framework.
 
 ADDED:
 	-Some Specialization Augments can now be explicitly disabled if you wish to effectively prevent
@@ -12,14 +66,13 @@ ADDED:
 FIXED:
 	-Coloration recipes have been tweaked slightly in code. Enchanted items are now dyeable.
 	-Item enchanting is a bit more consistent in what should apply.
-	
-GENERAL:
-	-Backend work and migration of some files to CoFHCore.
-	-IMC Handling has been adjusted to support the new Compactor framework.
 
 ----------------------------------------------------------------------------------------------------
 5.4.1:
 ----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Inventory Tweaks support has returned to Satchels.
 
 ADDED:
 	-Improved EvilCraft plugin support.
@@ -32,9 +85,6 @@ CHANGED:
 FIXED:
 	-Fixed an edge case where the Fluid Buffer could not be extracted from.
 	-Level 2 "Long" Potions can now be refined.
-
-GENERAL:
-	-Inventory Tweaks support has returned to Satchels.
 
 ----------------------------------------------------------------------------------------------------
 5.4.0:

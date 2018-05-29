@@ -1,10 +1,11 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"0.3.0": "Backend changes.",
 		"0.2.0": "Large internal refactors."
 	},
 	"promos": {
-		"1.12.2-latest": "0.2.0",
-		"1.12.2-recommended": "0.2.0"
+		"1.12.2-latest": "0.3.0",
+		"1.12.2-recommended": "0.3.0"
 	}
 }
