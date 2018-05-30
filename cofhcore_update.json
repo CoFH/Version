@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"4.5.1": "Fix to arrow speed for CoFH bows.",
 		"4.5.0": "Backend changes and optimizations.",
 		"4.4.1": "More internal refactors. Config option for Soulbound permanence.",
 		"4.4.0": "Large internal refactors. New config options."
@@ -12,8 +13,8 @@
 		"4.1.12": "Final 1.10.2 release."
 	},
 	"promos": {
-		"1.12.2-latest": "4.5.0",
-		"1.12.2-recommended": "4.5.0",
+		"1.12.2-latest": "4.5.1",
+		"1.12.2-recommended": "4.5.1",
 		"1.11.2-latest": "4.2.8",
 		"1.11.2-recommended": "4.2.8",
 		"1.10.2-latest": "4.1.12",
