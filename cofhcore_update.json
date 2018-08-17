@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"4.5.3": "Update for Forge 2739+.",
 		"4.5.2": "Fix to possible shield blocking recursion issue.",
 		"4.5.1": "Fix to arrow speed for CoFH bows.",
 		"4.5.0": "Backend changes and optimizations.",
