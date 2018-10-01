@@ -2,6 +2,20 @@ Thermal Foundation
 
 CHANGELOG
 ====================================================================================================
+2.6.0:
+----------------------------------------------------------------------------------------------------
+
+ADDED:
+	-New tools: Excavators. :) 3x3 shovels. No, not original. But easy enough to make.
+	-More Gears, as requested.
+
+CHANGED:
+	-Various recipes now better support the OreDictionary.
+
+FIXED:
+	-The Forge Lexicon will no longer eat ingots if you leave them inside it.
+
+----------------------------------------------------------------------------------------------------
 2.5.0:
 ----------------------------------------------------------------------------------------------------
 

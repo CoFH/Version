@@ -2,6 +2,25 @@ Thermal Expansion
 
 CHANGELOG
 ====================================================================================================
+5.5.1:
+----------------------------------------------------------------------------------------------------
+
+GENERAL:
+	-Backend refactors.
+
+ADDED:
+	-Config options for JEI plugins (client-side).
+	-More recipes. :)
+
+CHANGED:
+	-Redstone behavior of machines has been reverted so that operations are able to finish on toggle.
+
+FIXED:
+	-Corrected errant behavior with recycle recipes.
+	-Fixed a minor issue with the XP collector.
+	-Mitigated crashes caused by other mods doing questionable things.
+
+----------------------------------------------------------------------------------------------------
 5.5.0:
 ----------------------------------------------------------------------------------------------------
 
