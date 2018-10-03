@@ -1,8 +1,9 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
-		"5.5.1": "Minor fixes and compatibility features",
-		"5.5.0": "Added biofuel processing, Vacuumulator device",
+		"5.5.2": "Minor QoL update.",
+		"5.5.1": "Minor fixes and compatibility features.",
+		"5.5.0": "Added biofuel processing, Vacuumulator device.",
 		"5.4.2": "Minor bugfixes. Better Ore Handling.",
 		"5.4.1": "Minor bugfixes. Additional plugin support.",
 		"5.4.0": "Large internal refactors. Added new devices."
@@ -14,8 +15,8 @@
 		"5.1.10": "Final 1.10.2 release."
 	},
 	"promos": {
-		"1.12.2-latest": "5.5.1",
-		"1.12.2-recommended": "5.5.1",
+		"1.12.2-latest": "5.5.2",
+		"1.12.2-recommended": "5.5.2",
 		"1.11.2-latest": "5.2.7",
 		"1.11.2-recommended": "5.2.7",
 		"1.10.2-latest": "5.1.10",
