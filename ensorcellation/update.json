@@ -1,10 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.14.4": {
+		"0.1.0b": "And we're in beta!",
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.14.4-latest": "0.0.1a",
-		"1.14.4-recommended": "0.0.1a"
+		"1.14.4-latest": "0.1.0b",
+		"1.14.4-recommended": "0.1.0b"
 	}
 }
