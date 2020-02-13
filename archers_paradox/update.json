@@ -1,10 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.14.4": {
+		"0.3.0b": "Minor behavior adjustments.",
 		"0.1.0b": "And we're in beta!"
 	},
 	"promos": {
-		"1.14.4-latest": "0.1.0b",
-		"1.14.4-recommended": "0.1.0b"
+		"1.14.4-latest": "0.3.0b",
+		"1.14.4-recommended": "0.3.0b"
 	}
 }
