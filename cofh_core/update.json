@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.15.2": {
+		"0.3.2b": "Same feature parity, less debug message.",
 		"0.3.1b": "Feature parity across versions!"
 	},
 	"1.14.4": {
@@ -11,8 +12,8 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.3.1b",
-		"1.15.2-recommended": "0.3.1b",
+		"1.15.2-latest": "0.3.2b",
+		"1.15.2-recommended": "0.3.2b",
 		"1.14.4-latest": "0.3.1b",
 		"1.14.4-recommended": "0.3.1b"
 	}
