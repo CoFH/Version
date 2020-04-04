@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"4.6.6": "Minor fixes.",
 		"4.6.3": "Localization update!",
 		"4.6.2": "QoL, minor bugfixes.",
 		"4.6.1": "Minor QoL update.",
@@ -19,8 +20,8 @@
 		"4.1.12": "Final 1.10.2 release."
 	},
 	"promos": {
-		"1.12.2-latest": "4.6.3",
-		"1.12.2-recommended": "4.6.3",
+		"1.12.2-latest": "4.6.6",
+		"1.12.2-recommended": "4.6.6",
 		"1.11.2-latest": "4.2.8",
 		"1.11.2-recommended": "4.2.8",
 		"1.10.2-latest": "4.1.12",

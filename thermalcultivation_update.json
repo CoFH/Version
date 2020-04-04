@@ -1,6 +1,7 @@
 {
 	"homepage": "http://www.teamcofh.com/downloads/",
 	"1.12.2": {
+		"0.3.6": "Minor backend change.",
 		"0.3.3": "Backend changes.",
 		"0.3.2": "Allow watering while sneaking.",
 		"0.3.1": "Backend changes.",
@@ -8,7 +9,7 @@
 		"0.2.0": "Large internal refactors."
 	},
 	"promos": {
-		"1.12.2-latest": "0.3.3",
-		"1.12.2-recommended": "0.3.3"
+		"1.12.2-latest": "0.3.6",
+		"1.12.2-recommended": "0.3.6"
 	}
 }
