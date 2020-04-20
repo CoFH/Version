@@ -1,16 +1,18 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.15.2": {
+		"0.4.0b": "Adds three new arrows!",
 		"0.3.0b": "Feature parity across versions!"
 	},
 	"1.14.4": {
+		"0.4.0b": "Adds three new arrows!",
 		"0.3.0b": "Minor behavior adjustments.",
 		"0.1.0b": "And we're in beta!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.3.0b",
-		"1.15.2-recommended": "0.3.0b",
-		"1.14.4-latest": "0.3.0b",
-		"1.14.4-recommended": "0.3.0b"
+		"1.15.2-latest": "0.4.0b",
+		"1.15.2-recommended": "0.4.0b",
+		"1.14.4-latest": "0.4.0b",
+		"1.14.4-recommended": "0.4.0b"
 	}
 }
