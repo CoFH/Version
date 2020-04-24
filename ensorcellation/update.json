@@ -1,10 +1,12 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.15.2": {
+		"0.4.1b": "Fixes a crash bug with Frost Rebuke on Shields.",
 		"0.4.0b": "Added two new enchantments and rebalanced some others.",
 		"0.3.0b": "Feature parity across versions!"
 	},
 	"1.14.4": {
+		"0.4.1b": "Fixes a crash bug with Frost Rebuke on Shields.",
 		"0.4.0b": "Added two new enchantments and rebalanced some others.",
 		"0.3.0b": "Added more config options :)",
 		"0.2.0b": "Adjustments and refactoring.",
@@ -12,9 +14,9 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.4.0b",
-		"1.15.2-recommended": "0.4.0b",
-		"1.14.4-latest": "0.4.0b",
-		"1.14.4-recommended": "0.4.0b"
+		"1.15.2-latest": "0.4.1b",
+		"1.15.2-recommended": "0.4.1b",
+		"1.14.4-latest": "0.4.1b",
+		"1.14.4-recommended": "0.4.1b"
 	}
 }
