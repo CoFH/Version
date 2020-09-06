@@ -1,0 +1,3 @@
+<p>Active Development: <strong>Minecraft 1.15.2</strong></p>
+<p>Website: <strong><a href="https://teamcofh.com/">Team CoFH</a></strong></p>
+<p>Discord: <a href="https://discordapp.com/invite/uRKrnbH"><strong>Team CoFH Discord</strong></a></p>

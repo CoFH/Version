@@ -1,0 +1,26 @@
+<p>Active Development: <strong>Minecraft 1.15.2</strong></p>
+<p>Maintenance: <strong>Minecraft 1.14.2</strong></p>
+<p>Website: <strong><a href="https://teamcofh.com/">Team CoFH</a></strong></p>
+<p>Discord: <a href="https://discordapp.com/invite/uRKrnbH"><strong>Team CoFH Discord</strong></a></p>
+<p>&nbsp;</p>
+<p>So, <em><strong>CoFH Core</strong></em> has been around a <strong>long</strong> time (Since 2013!) and has changed throughout its various iterations. As such, information that you read on various wikis may be outdated or no longer apply.</p>
+<p>Please read the following overviews to get an idea what the mod offers for a given version of Minecraft. Note that required and optional dependencies have changed with time. We apologize for the changes, but the nature of Minecraft modding is such that flexibility is required to maintain features in an ever-changing codebase.</p>
+<h2>1.14+</h2>
+<p>Contains core functionality used in <em><strong>Team CoFH</strong></em> mods. It also adds a small number of objects (Blocks, Items, Fluids) to the game's registry which may or may not be used in various capacities. It includes a number of commands which are useful for server admins and packmakers.</p>
+<ul>
+<li>The <em><strong>Redstone Flux API</strong></em> has been deprecated and is no longer required as Forge has effectively incorporated it as the <em><strong>Forge Energy System</strong></em>.</li>
+</ul>
+<h2>1.12</h2>
+<p>Contains core functionality used in <em><strong>Team CoFH</strong></em> mods. It adds a small number of objects (Potions, Enchantments) to the game's registry. The enchantments are usable in a lightly-modded environment. In later versions, they have been migrated to a separate mod. It includes a number of commands which are useful for server admins and packmakers.</p>
+<ul>
+<li>For this version of <em><strong>CoFH Core</strong></em>, the <em><strong>Redstone Flux API</strong></em>&nbsp;is required! It can be found here:&nbsp;<strong><a href="https://mods.curse.com/mc-mods/minecraft/270789-redstone-flux">Redstone Flux</a></strong></li>
+<li>World generation which was previously found in this mod is now in <em><strong>CoFH World</strong></em>, a more full-featured standalone mod. It can be found here: <strong><a href="https://www.curseforge.com/minecraft/mc-mods/cofh-world">CoFH World</a></strong></li>
+</ul>
+<h2>1.11</h2>
+<p>This version is considered a "stepping" stone version. It has the same features as the 1.10.2 versions but was modernized to fit Mojang's backend changes. It is not recommended that you play a 1.11 modpack.</p>
+<h2>1.10</h2>
+<p>Contains core functionality used in <em><strong>Team CoFH</strong></em> mods. It adds a small number of objects (Potions, Enchantments) to the game's registry. The enchantments are usable in a lightly-modded environment. In later versions, they have been migrated to a separate mod. It includes a number of commands which are useful for server admins and packmakers.</p>
+<ul>
+<li>This version of <em><strong>CoFH Core</strong></em> also includes an early-version <em><strong>Redstone Flux API</strong></em>, and no standalone jar is required.</li>
+<li>This version of <em><strong>CoFH Core</strong></em> has some world generation controls which allow for ore generation customization.</li>
+</ul>
