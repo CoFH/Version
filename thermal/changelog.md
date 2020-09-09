@@ -5,6 +5,8 @@ Changelog - Thermal Series
 ------------------------------------------------------------------------------------------------------------------------
 Good job - you found bugs! This update has lots of bugfixes.
 
+World generation can now be disabled for any of the given ores. You'll find the config file in the saves/serverconfig folder inside your world save.
+
 Elemental mobs now move, spawn, and have loot tables.
 Elemental mob sounds are now quieter with distance. They're still probably too loud but at least it attenuates now.
 
