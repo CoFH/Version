@@ -1,12 +1,13 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.15.2": {
+		"0.2.2b": "Lots more mod recipe support, revamped tags. Bugfix with Dynamo connections.",
 		"0.2.1b": "Ores generate again. And mobs are quiet.",
 		"0.2.0b": "Lots of bugfixes, some QoL.",
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.2.1b",
-		"1.15.2-recommended": "0.2.1b"
+		"1.15.2-latest": "0.2.2b",
+		"1.15.2-recommended": "0.2.2b"
 	}
 }

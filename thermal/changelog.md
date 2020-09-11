@@ -1,6 +1,22 @@
 Changelog - Thermal Series
 ========================================================================================================================
 
+1.15.2-0.2.2b
+------------------------------------------------------------------------------------------------------------------------
+Added a huge amount of mod support (Biomes You'll Go, Pams, Refined Storage, Silent's Mechanisms, Traverse).
+
+Adjusted wrench behavior for better interoperability with other mods.
+
+Recategorized lots of tags to better aid in filtering.
+
+Tectonic Grenades now destroy Grass and Mycelium.
+
+Various forms of energy transport should now connect to the coil end of a Dynamo.
+
+1.15.2-0.2.1b
+------------------------------------------------------------------------------------------------------------------------
+Okay, so now the config option actually works as intended. Ores generate, mobs are more silent.
+
 1.15.2-0.2.0b
 ------------------------------------------------------------------------------------------------------------------------
 Good job - you found bugs! This update has lots of bugfixes.
