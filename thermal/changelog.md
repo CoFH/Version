@@ -4,10 +4,11 @@ Changelog - Thermal Series
 1.15.2-0.2.2b
 ------------------------------------------------------------------------------------------------------------------------
 Added a huge amount of mod support (Biomes You'll Go, Pams, Refined Storage, Silent's Mechanisms, Traverse).
+Added lots of tags to better aid in item filtering.
 
 Adjusted wrench behavior for better interoperability with other mods.
 
-Recategorized lots of tags to better aid in filtering.
+Renamed a couple of items - this will generate a missing item warning if you have an existing world. It's fine, really - you wouldn't have had these legitimately anyway.
 
 Tectonic Grenades now destroy Grass and Mycelium.
 
