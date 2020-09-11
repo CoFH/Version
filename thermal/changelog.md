@@ -1,6 +1,12 @@
 Changelog - Thermal Series
 ========================================================================================================================
 
+1.15.2-0.2.3b
+------------------------------------------------------------------------------------------------------------------------
+Fixed a recipe error with the Induction Smelter.
+
+Added a lot more mod compatibility and machine recipes. Thanks Porygon!
+
 1.15.2-0.2.2b
 ------------------------------------------------------------------------------------------------------------------------
 Added a huge amount of mod support (Biomes You'll Go, Pams, Refined Storage, Silent's Mechanisms, Traverse).
