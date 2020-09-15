@@ -1,6 +1,12 @@
 Changelog - Thermal Series
 ========================================================================================================================
 
+1.15.2-0.2.5b
+------------------------------------------------------------------------------------------------------------------------
+Fixed an issue with certain recipes not working properly in the Sequential Fabricator.
+
+Elemental mobs no longer spawn above light level 7.
+
 1.15.2-0.2.4b
 ------------------------------------------------------------------------------------------------------------------------
 Added the Sequential Fabricator, an auto-crafting machine.
@@ -10,8 +16,6 @@ Added the Sequential Fabricator, an auto-crafting machine.
     -It won't craft complex things involving NBT.
 
 New machine textures! Thanks floofHips! :)
-
-Elemental mobs no longer spawn above light level 7.
 
 Fixed an issue with the Fluxsaw not using Radius Augments properly.
 Minor bugfixes related to recipe processing and tank displays.

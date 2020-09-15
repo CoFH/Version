@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.15.2": {
+		"0.2.5b": "Minor bugfix for the Fabricator. Adjustment to mob spawns.",
 		"0.2.4b": "New machine textures! Also the Sequential Fabricator. Some tiny bugfixes.",
 		"0.2.3b": "Fixed some Smelter recipe issues. More recipe support!",
 		"0.2.2b": "Lots more mod recipe support, revamped tags. Bugfix with Dynamo connections.",
@@ -9,7 +10,7 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.2.3b",
-		"1.15.2-recommended": "0.2.3b"
+		"1.15.2-latest": "0.2.4b",
+		"1.15.2-recommended": "0.2.4b"
 	}
 }
