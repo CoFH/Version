@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.15.2": {
+		"0.2.4b": "New machine textures! Also the Sequential Fabricator. Some tiny bugfixes.",
 		"0.2.3b": "Fixed some Smelter recipe issues. More recipe support!",
 		"0.2.2b": "Lots more mod recipe support, revamped tags. Bugfix with Dynamo connections.",
 		"0.2.1b": "Ores generate again. And mobs are quiet.",

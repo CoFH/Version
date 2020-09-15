@@ -1,6 +1,18 @@
 Changelog - Thermal Series
 ========================================================================================================================
 
+1.15.2-0.2.4b
+------------------------------------------------------------------------------------------------------------------------
+Added the Sequential Fabricator, an auto-crafting machine.
+    -It has 9 slots instead of 18 now, but they are smarter.
+    -The tank is included by default.
+    -It won't craft complex things involving NBT.
+
+New machine textures! Thanks floofHips! :)
+
+Fixed an issue with the Fluxsaw not using Radius Augments properly.
+Minor bugfixes related to recipe processing and tank displays.
+
 1.15.2-0.2.3b
 ------------------------------------------------------------------------------------------------------------------------
 Fixed a recipe error with the Induction Smelter.
