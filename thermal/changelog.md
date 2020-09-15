@@ -11,6 +11,8 @@ Added the Sequential Fabricator, an auto-crafting machine.
 
 New machine textures! Thanks floofHips! :)
 
+Elemental mobs no longer spawn above light level 7.
+
 Fixed an issue with the Fluxsaw not using Radius Augments properly.
 Minor bugfixes related to recipe processing and tank displays.
 
