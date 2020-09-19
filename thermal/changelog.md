@@ -1,6 +1,14 @@
 Changelog - Thermal Series
 ========================================================================================================================
 
+1.15.2-0.3.0b
+------------------------------------------------------------------------------------------------------------------------
+Added more ways to get rubber. :)
+
+Adjusted augment scaling on the Flux Capacitor.
+
+Fixed an issue with the Tinker Bench and augs duping.
+
 1.15.2-0.2.5b
 ------------------------------------------------------------------------------------------------------------------------
 Fixed an issue with certain recipes not working properly in the Sequential Fabricator.
