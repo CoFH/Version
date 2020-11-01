@@ -1,6 +1,10 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.16.3": {
+		"1.0.0": "Initial 1.16 version. Minor bugfixes and texture changes. Added Patchouli book!"
+	},
 	"1.15.2": {
+		"1.0.0": "Final content version for 1.15. Minor bugfixes and texture changes. Added Patchouli book!",
 		"0.3.0b": "Bugfixes and more recipes.",
 		"0.2.5b": "Minor bugfix for the Fabricator. Adjustment to mob spawns.",
 		"0.2.4b": "New machine textures! Also the Sequential Fabricator. Some tiny bugfixes.",
@@ -11,7 +15,9 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.3.0b",
-		"1.15.2-recommended": "0.3.0b"
+		"1.16.3-latest": "1.0.0",
+		"1.16.3-recommended": "1.0.0",
+		"1.15.2-latest": "1.0.0",
+		"1.15.2-recommended": "1.0.0"
 	}
 }

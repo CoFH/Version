@@ -1,6 +1,10 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.16.3": {
+		"1.0.0": "Initial 1.16 version. Config system updates."
+	},
 	"1.15.2": {
+		"1.0.0": "Final content version for 1.15. Config system updates.",
 		"0.7.0b": "Required update for new CoFH Core.",
 		"0.6.0b": "Required update for new CoFH Core.",
 		"0.5.0b": "Required update for new Forge and CoFH Core.",
@@ -13,8 +17,10 @@
 		"0.1.0b": "And we're in beta!"
 	},
 	"promos": {
-		"1.15.2-latest": "0.7.0b",
-		"1.15.2-recommended": "0.7.0b",
+		"1.16.3-latest": "1.0.0",
+		"1.16.3-recommended": "1.0.0",
+		"1.15.2-latest": "1.0.0",
+		"1.15.2-recommended": "1.0.0",
 		"1.14.4-latest": "0.4.0b",
 		"1.14.4-recommended": "0.4.0b"
 	}

@@ -1,5 +1,24 @@
 Changelog - Thermal Series
 ========================================================================================================================
+1.16.3-1.0.0
+------------------------------------------------------------------------------------------------------------------------
+Initial 1.16 release! Same as 1.15.2-1.0.0; systems changed to conform to vanilla where necessary.
+
+Added machine recipes to support new vanilla 1.16 features.
+
+Armor no longer shows obscure stat boosts. (eg, Hazard Resistance)
+
+Ore spawn and rarity has been adjusted.
+
+1.15.2-1.0.0
+------------------------------------------------------------------------------------------------------------------------
+Minor bugfixes involving the Fluid Encapsulator.
+Fixed a crash with the FluxoMagnet.
+
+Added JEI support for Catalysts. :)
+Added a guidebook! Requires Patchouli.
+    -Thanks very much to the team who wrote (and rewrote) this, notably ShinyPorygon and Hekera.
+Updated numerous textures, such as Enderium parts and Thermal Innovation tools.
 
 1.15.2-0.3.0b
 ------------------------------------------------------------------------------------------------------------------------
