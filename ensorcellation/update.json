@@ -1,6 +1,8 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.3": {
+		"1.0.2": "Re-enabled Reach and Vitality enchantments.",
+		"1.0.1": "Disabled Reach and Vitality enchantments due to 1.16 weirdness.",
 		"1.0.0": "Initial 1.16 version. Config system updates."
 	},
 	"1.15.2": {
@@ -21,8 +23,8 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.16.3-latest": "1.0.0",
-		"1.16.3-recommended": "1.0.0",
+		"1.16.3-latest": "1.0.2",
+		"1.16.3-recommended": "1.0.2",
 		"1.15.2-latest": "1.0.0",
 		"1.15.2-recommended": "1.0.0",
 		"1.14.4-latest": "0.4.1b",
