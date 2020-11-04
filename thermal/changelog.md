@@ -1,5 +1,18 @@
 Changelog - Thermal Series
 ========================================================================================================================
+1.16.3-1.0.3
+------------------------------------------------------------------------------------------------------------------------
+Adds a couple of extra materials, for future implementation/use.
+Adds enable/disable options for Thermal ore generation.
+
+Fixes a recipe desync issue.
+
+Prevents a crash when other mods would incorrectly grab unobtainable items.
+
+1.16.3-1.0.1
+------------------------------------------------------------------------------------------------------------------------
+Fixes an issue with Patchouli.
+
 1.16.3-1.0.0
 ------------------------------------------------------------------------------------------------------------------------
 Initial 1.16 release! Same as 1.15.2-1.0.0; systems changed to conform to vanilla where necessary.

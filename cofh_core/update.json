@@ -1,9 +1,12 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.3": {
+		"1.0.3": "Minor optimizations; boosted Forge version requirement.",
+		"1.0.1": "Adds client config option for Optifine compatibility.",
 		"1.0.0": "Initial 1.16 version. Config system updates."
 	},
 	"1.15.2": {
+		"1.0.1": "Adds client config option for Optifine compatibility.",
 		"1.0.0": "Final content version for 1.15. Config system updates.",
 		"0.7.0b": "Improved event handling and refactors.",
 		"0.6.4b": "One more bugfix.",
@@ -25,10 +28,10 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.16.3-latest": "1.0.0",
-		"1.16.3-recommended": "1.0.0",
-		"1.15.2-latest": "1.0.0",
-		"1.15.2-recommended": "1.0.0",
+		"1.16.3-latest": "1.0.3",
+		"1.16.3-recommended": "1.0.3",
+		"1.15.2-latest": "1.0.1",
+		"1.15.2-recommended": "1.0.1",
 		"1.14.4-latest": "0.4.0b",
 		"1.14.4-recommended": "0.4.0b"
 	}
