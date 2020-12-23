@@ -1,5 +1,35 @@
 Changelog - Thermal Series
 ========================================================================================================================
+1.16.3-1.1.0
+------------------------------------------------------------------------------------------------------------------------
+Adds Bitumen and Tar (and Bituminous Sand) as resources.
+Adds Crude Oil, Heavy Oil, Light Oil, Refined Fuel, and Creosote Oil as fluids.
+Adds the Capacitato - a low-end battery good for moving energy into machines.
+
+Adds 3 new Dies to the Multiservo Press for packing and unpacking recipes.
+Adds a new machine - the Pyrolyzer. Generally used for making Coke and Charcoal.
+Adds Fluid and Energy Cells (and their respective frames).
+Adds the Aqueous Accumulator. Provides lots of water; but does not auto-output.
+
+Coal Coke has been renamed to "Coke" and will probably have the internal ID changed in the future.
+
+Adds Corn as a crop.
+Adds Perspicacious Stew, which grants Clarity (+40% XP) for one minute on consumption.
+
+Energy values for tools have been adjusted.
+Tools can now be enchanted.
+
+The Tinker Bench can now extract fluid from Potion Bottles.
+
+Localizations and tooltips have been improved.
+
+Prismarine Rails are now faster underwater.
+
+Lots of new recipes have been added.
+CraftTweaker support is now provided (thanks Jared!)
+
+Many, many textures have been adjusted and refined.
+
 1.16.3-1.0.3
 ------------------------------------------------------------------------------------------------------------------------
 Adds a couple of extra materials, for future implementation/use.

@@ -1,6 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.16.4": {
+		"1.1.0": "Content! Bugfixes! Pyrolyzer, Fluid and Energy Cells, oil processing!",
+		"1.0.3": "Fixes a recipe desync issue. Ore generation can now be disabled."
+	},
 	"1.16.3": {
+		"1.1.0": "Content! Bugfixes! Pyrolyzer, Fluid and Energy Cells, oil processing!",
 		"1.0.3": "Fixes a recipe desync issue. Ore generation can now be disabled.",
 		"1.0.1": "Fixed a couple of 1.16 specific Patchouli issues and a corner case with xmod recipes.",
 		"1.0.0": "Initial 1.16 version. Minor bugfixes and texture changes. Added Patchouli book!"
@@ -17,8 +22,10 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.16.3-latest": "1.0.3",
-		"1.16.3-recommended": "1.0.3",
+		"1.16.4-latest": "1.1.0",
+		"1.16.4-recommended": "1.1.0",
+		"1.16.3-latest": "1.1.0",
+		"1.16.3-recommended": "1.1.0",
 		"1.15.2-latest": "1.0.0",
 		"1.15.2-recommended": "1.0.0"
 	}
