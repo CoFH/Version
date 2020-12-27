@@ -1,5 +1,24 @@
 Changelog - Thermal Series
 ========================================================================================================================
+1.16.3-1.1.3
+------------------------------------------------------------------------------------------------------------------------
+Adds some Quark support (and fix a recipe conflict).
+Adds I/O side support to Cells.
+
+Changes sided extraction behavior for IO sides to be more restrictive.
+
+Improves lighting for Cells.
+
+Overhauls wrench behavior - it rotates more stuff now. :)
+    -I'm sure this will break something. Let's see what.
+
+Fixes additional energy being lost when placing an Energy Cell with the Holding enchantment.
+Fixes Tinker Bench fill behavior with improperly restricted fluid containers.
+
+1.16.3-1.1.2
+------------------------------------------------------------------------------------------------------------------------
+Adjust minimum fuel value limits for dynamos.
+
 1.16.3-1.1.1
 ------------------------------------------------------------------------------------------------------------------------
 Fix a bug with recipe mangling and dedicated servers.

@@ -1,11 +1,15 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.4": {
+		"1.1.3": "Bugfixes and QoL. New wrench behavior!",
+		"1.1.2": "Relaxes minimum valid fuel values for dynamos, somewhat.",
 		"1.1.1": "Fixes a recipe bug with dedicated servers. Other minor recipe fixes.",
 		"1.1.0": "Content! Bugfixes! Pyrolyzer, Fluid and Energy Cells, oil processing!",
 		"1.0.3": "Fixes a recipe desync issue. Ore generation can now be disabled."
 	},
 	"1.16.3": {
+		"1.1.3": "Bugfixes and QoL. New wrench behavior!",
+		"1.1.2": "Relaxes minimum valid fuel values for dynamos, somewhat.",
 		"1.1.1": "Fixes a recipe bug with dedicated servers. Other minor recipe fixes.",
 		"1.1.0": "Content! Bugfixes! Pyrolyzer, Fluid and Energy Cells, oil processing!",
 		"1.0.3": "Fixes a recipe desync issue. Ore generation can now be disabled.",
@@ -24,8 +28,8 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.16.4-latest": "1.1.1",
-		"1.16.4-recommended": "1.1.1",
+		"1.16.4-latest": "1.1.3",
+		"1.16.4-recommended": "1.1.3",
 		"1.16.3-latest": "1.1.1",
 		"1.16.3-recommended": "1.1.1",
 		"1.15.2-latest": "1.0.0",

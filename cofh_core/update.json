@@ -1,11 +1,15 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.4": {
+		"1.1.3": "Backend QoL changes and fixes.",
+		"1.1.2": "Adjust how some enchantments are calculated.",
 		"1.1.1": "Minor numerical localization improvement.",
 		"1.1.0": "Lots of big internal refactors. Fixes Optifine issue since they are too lazy/incompetent to do it.",
 		"1.0.3": "Minor optimizations; boosted Forge version requirement."
 	},
 	"1.16.3": {
+		"1.1.3": "Backend QoL changes and fixes.",
+		"1.1.2": "Adjust how some enchantments are calculated.",
 		"1.1.1": "Minor numerical localization improvement.",
 		"1.1.0": "Lots of big internal refactors. Fixes Optifine issue since they are too lazy/incompetent to do it.",
 		"1.0.3": "Minor optimizations; boosted Forge version requirement.",
@@ -35,8 +39,8 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.16.4-latest": "1.1.1",
-		"1.16.4-recommended": "1.1.1",
+		"1.16.4-latest": "1.1.3",
+		"1.16.4-recommended": "1.1.3",
 		"1.16.3-latest": "1.1.1",
 		"1.16.3-recommended": "1.1.1",
 		"1.15.2-latest": "1.0.1",
