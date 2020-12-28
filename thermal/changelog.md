@@ -1,193 +1,263 @@
 Changelog - Thermal Series
-========================================================================================================================
+=============================
+1.16.3-1.1.4
+-----------------------------
+_Changes_
+
+- Optimizes backend behavior for Capability handling on most Tile Entities.
+
+_Fixes_
+
+- Blocks should more reliably connect to various transport solutions in all cases.
+
 1.16.3-1.1.3
-------------------------------------------------------------------------------------------------------------------------
-Adds some Quark support (and fix a recipe conflict).
-Adds I/O side support to Cells.
+-----------------------------
+_Additions_
 
-Changes sided extraction behavior for IO sides to be more restrictive.
+- Some mod compatibility for Quark.
 
-Improves lighting for Cells.
+_Changes_
 
-Overhauls wrench behavior - it rotates more stuff now. :)
-    -I'm sure this will break something. Let's see what.
+- Cells can now have I/O sides.
+- Changes sided extraction behavior for I/O sides to be more restrictive (this generally makes automation more intuitive).
+- Improves lighting for Cells.
+- Overhauls wrench behavior - it rotates more stuff now. :)
+  - I'm sure this will break something. Let's see what.
 
-Fixes additional energy being lost when placing an Energy Cell with the Holding enchantment.
-Fixes Tinker Bench fill behavior with improperly restricted fluid containers.
+_Fixes_
+
+- Corrected a minor issue with Tinker Bench drain behavior.
+- Energy Cells enchanted with Holding will now correctly keep all of their stored energy when placed.
 
 1.16.3-1.1.2
-------------------------------------------------------------------------------------------------------------------------
-Adjust minimum fuel value limits for dynamos.
+-----------------------------
+_Changes_
+
+- Adjusts minimum fuel value limits for dynamos.
 
 1.16.3-1.1.1
-------------------------------------------------------------------------------------------------------------------------
-Fix a bug with recipe mangling and dedicated servers.
+-----------------------------
+_Fixes_
 
-Fix a couple of incorrect recipes and invalid inputs.
+- Correct a bug with recipe mangling and dedicated servers.
+- Correct a couple of incorrect recipes with invalid inputs.
 
 1.16.3-1.1.0
-------------------------------------------------------------------------------------------------------------------------
-Adds Bitumen and Tar (and Bituminous Sand) as resources.
-Adds Crude Oil, Heavy Oil, Light Oil, Refined Fuel, and Creosote Oil as fluids.
-Adds the Capacitato - a low-end battery good for moving energy into machines.
+-----------------------------
+_Additions_
 
-Adds 3 new Dies to the Multiservo Press for packing and unpacking recipes.
-Adds a new machine - the Pyrolyzer. Generally used for making Coke and Charcoal.
-Adds Fluid and Energy Cells (and their respective frames).
-Adds the Aqueous Accumulator. Provides lots of water; but does not auto-output.
+- CraftTweaker support is now provided. (Thanks Jared!)
+- Aqueous Accumulator
+  - Provides LOTS of water.
+  - Does not auto-output.
+- Energy and Fluid Cells
+  - Store Energy or Fluids
+  - Sides and flow amounts can be configured.
+- Pyrolyzer
+  - Generally used for making Coke and Charcoal.
+  - Base power is 1/4 of other machines (5 RF/t).
+- Fluids:
+  - Crude Oil
+  - Heavy Oil
+  - Light Oil
+  - Refined Fuel
+  - Creosote Oil
+- Resources:
+  - Bituminous Sand
+  - Bitumen
+  - Tar
+- Capacitato - a basic battery made with a Potato.
+- Corn - crop and seeds. Trade with a villager to obtain.
+- Many new machine recipes have been added.
+- Perspicacious Stew, which grants Clarity (+40% XP) for one minute on consumption.
+- Three new Dies for the Multiservo Press for packing and unpacking recipes.
 
-Coal Coke has been renamed to "Coke" and will probably have the internal ID changed in the future.
+_Changes_
 
-Adds Corn as a crop.
-Adds Perspicacious Stew, which grants Clarity (+40% XP) for one minute on consumption.
-
-Energy values for tools have been adjusted.
-Tools can now be enchanted.
-
-The Tinker Bench can now extract fluid from Potion Bottles.
-
-Localizations and tooltips have been improved.
-
-Prismarine Rails are now faster underwater.
-
-Lots of new recipes have been added.
-CraftTweaker support is now provided (thanks Jared!)
-
-Many, many textures have been adjusted and refined.
+- Coal Coke has been renamed to "Coke" and will probably have the internal ID changed in the future.
+- Energy values for tools have been adjusted.
+- Many, many textures have been adjusted and refined. (Thanks floofHips!)
+- Prismarine Rails are now faster underwater.
+- Tinker Bench can now extract fluid from Potion Bottles.
+- Tools can now be enchanted.
 
 1.16.3-1.0.3
-------------------------------------------------------------------------------------------------------------------------
-Adds a couple of extra materials, for future implementation/use.
-Adds enable/disable options for Thermal ore generation.
+-----------------------------
+_Additions_
 
-Fixes a recipe desync issue.
+- New extra materials, for future implementation/use.
+- Adds enable/disable options for Thermal ore generation.
 
-Prevents a crash when other mods would incorrectly grab unobtainable items.
+_Fixes_
+
+- Fixes a recipe desync issue.
+- Prevents a crash when other mods would incorrectly grab unobtainable items.
 
 1.16.3-1.0.1
-------------------------------------------------------------------------------------------------------------------------
-Fixes an issue with Patchouli.
+-----------------------------
+_Fixes_
+
+- Fixes a minor issue with Patchouli integration.
 
 1.16.3-1.0.0
-------------------------------------------------------------------------------------------------------------------------
-Initial 1.16 release! Same as 1.15.2-1.0.0; systems changed to conform to vanilla where necessary.
+-----------------------------
+__Initial 1.16 release!__ Same as 1.15.2-1.0.0; systems changed to conform to vanilla where necessary.
 
-Added machine recipes to support new vanilla 1.16 features.
+_Additions_
 
-Armor no longer shows obscure stat boosts. (eg, Hazard Resistance)
+- New machine recipes to support new vanilla 1.16 features.
 
-Ore spawn and rarity has been adjusted.
+_Changes_
+
+- Armor no longer shows obscure stat boosts (such as Hazard Resistance).
+- Ore generation parameters and rarity have been adjusted.
 
 1.15.2-1.0.0
-------------------------------------------------------------------------------------------------------------------------
-Minor bugfixes involving the Fluid Encapsulator.
-Fixed a crash with the FluxoMagnet.
+-----------------------------
+_Additions_
 
-Added JEI support for Catalysts. :)
-Added a guidebook! Requires Patchouli.
-    -Thanks very much to the team who wrote (and rewrote) this, notably ShinyPorygon and Hekera.
-Updated numerous textures, such as Enderium parts and Thermal Innovation tools.
+- JEI support for Catalysts. :)
+- Thermalpedia - a guidebook!
+  - Requires Patchouli.
+  - Thanks very much to the team who wrote (and rewrote) this, notably ShinyPorygon and Hekera.
+
+_Changes_
+
+- Updated numerous textures, such as Enderium parts and Thermal Innovation tools.
+
+_Fixes_
+
+- Fixed a crash with the FluxoMagnet.
+- Minor bugfixes involving the Fluid Encapsulator.
 
 1.15.2-0.3.0b
-------------------------------------------------------------------------------------------------------------------------
-Added more ways to get rubber. :)
+-----------------------------
+_Additions_
 
-Adjusted augment scaling on the Flux Capacitor.
+- Added more ways to get rubber. :)
 
-Fixed an issue with the Tinker Bench and augs duping.
+_Changes_
+
+- Adjusted augment scaling on the Flux Capacitor.
+
+_Fixes_
+
+- Fixed a corner case issue which allowed the Tinker Bench to overwrite an augment with a different one.
 
 1.15.2-0.2.5b
-------------------------------------------------------------------------------------------------------------------------
-Fixed an issue with certain recipes not working properly in the Sequential Fabricator.
+-----------------------------
+_Changes_
 
-Elemental mobs no longer spawn above light level 7.
+- Elemental mobs no longer spawn above light level 7.
+
+_Fixes_
+
+- Corrected an issue with certain recipes not working properly in the Sequential Fabricator.
 
 1.15.2-0.2.4b
-------------------------------------------------------------------------------------------------------------------------
-Added the Sequential Fabricator, an auto-crafting machine.
+-----------------------------
+_Additions_
 
-    -It has 9 slots instead of 18 now, but they are smarter.
-    -The tank is included by default.
-    -It won't craft complex things involving NBT.
+- Sequential Fabricator
+  - It has 9 slots instead of 18 now, but they are smarter.
+  - The tank is included by default.
+  - It will not craft complex things involving NBT data.
 
-New machine textures! Thanks floofHips! :)
+_Changes_
 
-Fixed an issue with the Fluxsaw not using Radius Augments properly.
-Minor bugfixes related to recipe processing and tank displays.
+- New machine textures! Thanks floofHips! :)
+
+_Fixes_
+
+- Corrected an issue with the Fluxsaw not using Radius Augments properly.
+- Minor bugfixes related to recipe processing and tank displays.
 
 1.15.2-0.2.3b
-------------------------------------------------------------------------------------------------------------------------
-Fixed a recipe error with the Induction Smelter.
+-----------------------------
+_Additions_
 
-Added a lot more mod compatibility and machine recipes. Thanks Porygon!
+- A lot more mod compatibility recipes for Thermal machines. Thanks ShinyPorygon!
+
+_Fixes_
+
+- Corrected a recipe error with the Induction Smelter.
 
 1.15.2-0.2.2b
-------------------------------------------------------------------------------------------------------------------------
-Added a huge amount of mod support (Biomes You'll Go, Pams, Refined Storage, Silent's Mechanisms, Traverse).
-Added lots of tags to better aid in item filtering.
+-----------------------------
+_Additions_
 
-Adjusted wrench behavior for better interoperability with other mods.
+- A lot of mod compatibility recipes for Thermal machines.
+- Many new Tags to better aid in item filtering.
 
-Renamed a couple of items - this will generate a missing item warning if you have an existing world. It's fine, really - you wouldn't have had these legitimately anyway.
+_Changes_
 
-Tectonic Grenades now destroy Grass and Mycelium.
+- Adjusted wrench behavior for better interoperability with other mods.
+- Renamed a couple of items - this will generate a missing item warning if you have an existing world. It's fine, really - you wouldn't have had these legitimately anyway.
+- Tectonic Grenades now destroy Grass and Mycelium.
 
-Various forms of energy transport should now connect to the coil end of a Dynamo.
+_Fixes_
+
+- Various forms of energy transport should now connect to the coil end of a Dynamo.
 
 1.15.2-0.2.1b
-------------------------------------------------------------------------------------------------------------------------
-Okay, so now the config option actually works as intended. Ores generate, mobs are more silent.
+-----------------------------
+_Changes_
+
+- Reduced mob volume even more.
+
+_Fixes_
+
+- Config option actually works as intended; ores generate.
 
 1.15.2-0.2.0b
-------------------------------------------------------------------------------------------------------------------------
-Good job - you found bugs! This update has lots of bugfixes.
+-----------------------------
+__Good job - you found bugs! This update has lots of bugfixes.__
 
-World generation can now be disabled for any of the given ores. You'll find the config file in the saves/serverconfig folder inside your world save.
+_Additions_
 
-Elemental mobs now move, spawn, and have loot tables.
-Elemental mob sounds are now quieter with distance. They're still probably too loud but at least it attenuates now.
+- Fire Charge crafting recipes for Bronze, Invar, Electrum, Constantan.
+- Various machine recipes.
+- World generation can now be disabled for any of the given ores. You'll find the config file in the saves/serverconfig folder inside your world save.
 
-Phyto-Soil Infuser now has a recipe.
-Many recipes were adjusted to have Tag support.
-Smelter now uses the correct amounts for all inputs.
+_Changes_
 
-Tectonic Grenades, Explosives, and Minecarts no longer break unbreakable things.
-Glacial Grenades, Explosives, and Minecarts deal a small amount of damage.
+- Beekeeper and Hazmat armors will take damage when protecting from their respective effects.
+- Detonator can no longer change to Detonate mode if no TNT is primed.
+- Diving and Hazmat armors have improved (and no longer bugged) additional air logic. Air lasts roughly 5x and 2.5x longer, respectively.
+- Elemental mob Spawn Eggs have been moved to the Thermal Series Items tab. No, Creative Search cannot find them. JEI can. This is a Mojang issue.
+- Flux Capacitor now has 2 Augment slots.
+- Glacial Grenades, Explosives, and Minecarts deal a small amount of damage.
+- Hazmat armor now properly protects from lightning damage, Chilled, and Shocked status effects.
+- Hazmat armor no longer crashes the game when protecting from Poison or Wither.
+- Improved the "Clear" tooltip for Tanks and Energy Coil GUI Elements. (Hold Alt or Shift while hovering to see it.)
+- Perennial crops have had their BlockState, Loot Tables, and growth logic adjusted to be less confusing when using mods that make guesses about BlockStates. ;)
+- Potion Augments will now only increase Duration up to 1 hour (72000 ticks).
+- Potion Augments will now only increase Level up to 4 (Amplifier 3).
+- Retooled a number of backend packages.
+- Shift + Right Click will no longer attempt to insert Augments into the Augmentation Panel.
+- Tinker Bench GUI Mode Button now has tooltips.
+- Various items now have Tags.
+- Various recipes adjusted for Tag support.
 
-Added Fire Charge crafting recipes for Bronze, Invar, Electrum, Constantan.
-Added Tags to various resources.
-Added tooltips to the Tinker Bench GUI Mode Button.
-Added various machine recipes.
+_Fixes_
 
-Alchemical Quiver now has proper icons when it has Arrows but no Potion.
-
-Beekeeper and Hazmat armors will take damage when protecting from their respective effects.
-
-Detonator can no longer change to Detonate mode if no TNT is primed.
-
-Diving and Hazmat armors have improved (and no longer bugged) additional air logic. Air lasts roughly 5x and 2.5x longer, respectively.
-
-Elemental mob Spawn Eggs have been moved to the Thermal Series Items tab.
--No, Creative Search cannot find them. JEI can. This is a Mojang issue.
-
-Flux Capacitor now has 2 Augment slots.
-
-Hazmat armor now properly protects from lightning damage, Chilled, and Shocked status effects.
-Hazmat armor no longer crashes the game when protecting from Poison or Wither.
-
-Improved the "Clear" tooltip for Tanks and Energy Coil GUI Elements. (Hold Alt or Shift while hovering to see it.)
-
-Perennial crops have had their BlockState, Loot Tables, and growth logic adjusted to be less confusing when using mods that make guesses about BlockStates. ;)
-
-Potion Augments will now only increase Duration up to 1 hour (72000 ticks).
-Potion Augments will now only increase Level up to 4 (Amplifier 3).
-
-Shift + Right Click will no longer attempt to insert Augments into the Augmentation Panel.
-
-Retooled a number of backend packages.
+- Alchemical Quiver now has proper icons when it has Arrows but no Potion.
+- Elemental mobs now move, spawn, and have loot tables.
+- Elemental mob sounds are now quieter with distance. They're still probably too loud but at least it attenuates now.
+- Phyto-Soil Infuser is now craftable.
+- Smelter now uses the correct amounts for all inputs.
+- Tectonic Grenades, Explosives, and Minecarts no longer break unbreakable things.
 
 1.15.2-0.1.0b
-------------------------------------------------------------------------------------------------------------------------
-Initial 1.15.2 Release!
+-----------------------------
+__Initial 1.15.2 Release!__
 
-It's a beta; have fun and go find bugs.
+- It's a beta; have fun and go find bugs.
+
+Version
+-----------------------------
+_Additions_
+
+_Changes_
+
+_Fixes_
