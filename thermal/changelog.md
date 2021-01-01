@@ -1,5 +1,15 @@
 Changelog - Thermal Series
 =============================
+1.16.3-1.1.5
+-----------------------------
+_Changes_
+
+Plates and Coins will be hidden from JEI and Creative unless Thermal Expansion is installed. :)
+
+_Fixes_
+
+- Cells will more properly restrict the types of transfer allowed per side.
+
 1.16.3-1.1.4
 -----------------------------
 _Changes_
