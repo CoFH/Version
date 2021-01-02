@@ -1,10 +1,15 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.4": {
+		"1.1.2": "Localization update.",
+		"1.1.1": "Minor fix for Air Affinity behavior.",
 		"1.1.0": "Adjusted internal behavior of a couple of enchantments.",
 		"1.0.2": "Re-enabled Reach and Vitality enchantments."
 	},
 	"1.16.3": {
+		"1.1.2": "Localization update.",
+		"1.1.1": "Minor fix for Air Affinity behavior.",
+		"1.1.0": "Adjusted internal behavior of a couple of enchantments.",
 		"1.0.2": "Re-enabled Reach and Vitality enchantments.",
 		"1.0.1": "Disabled Reach and Vitality enchantments due to 1.16 weirdness.",
 		"1.0.0": "Initial 1.16 version. Config system updates."
@@ -27,8 +32,8 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.16.4-latest": "1.1.0",
-		"1.16.4-recommended": "1.1.0",
+		"1.16.4-latest": "1.1.2",
+		"1.16.4-recommended": "1.1.2",
 		"1.16.3-latest": "1.1.0",
 		"1.16.3-recommended": "1.1.0",
 		"1.15.2-latest": "1.0.0",

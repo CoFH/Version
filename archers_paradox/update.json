@@ -1,10 +1,12 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.4": {
+		"1.1.1": "Localization update.",
 		"1.1.0": "Optimizations, bugfixes, CoFH Core updates.",
 		"1.0.0": "Initial 1.16 version. Config system updates."
 	},
 	"1.16.3": {
+		"1.1.1": "Localization update.",
 		"1.1.0": "Optimizations, bugfixes, CoFH Core updates.",
 		"1.0.0": "Initial 1.16 version. Config system updates."
 	},
@@ -22,10 +24,10 @@
 		"0.1.0b": "And we're in beta!"
 	},
 	"promos": {
-		"1.16.4-latest": "1.1.0",
-		"1.16.4-recommended": "1.1.0",
-		"1.16.3-latest": "1.1.0",
-		"1.16.3-recommended": "1.1.0",
+		"1.16.4-latest": "1.1.1",
+		"1.16.4-recommended": "1.1.1",
+		"1.16.3-latest": "1.1.1",
+		"1.16.3-recommended": "1.1.1",
 		"1.15.2-latest": "1.0.0",
 		"1.15.2-recommended": "1.0.0",
 		"1.14.4-latest": "0.4.0b",

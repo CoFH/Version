@@ -1,10 +1,20 @@
 Changelog - Thermal Series
 =============================
+1.16.3-1.1.6
+-----------------------------
+_Changes_
+
+- Localization updates for German, Japanese, and Italian.
+
+_Fixes_
+
+- Corrects an issue with the Tinker Bench crashing with certain fluid containers.
+
 1.16.3-1.1.5
 -----------------------------
 _Changes_
 
-Plates and Coins will be hidden from JEI and Creative unless Thermal Expansion is installed. :)
+- Plates and Coins will be hidden from JEI and Creative unless Thermal Expansion is installed. :)
 
 _Fixes_
 
