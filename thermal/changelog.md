@@ -1,5 +1,87 @@
 Changelog - Thermal Series
 =============================
+1.16.4-1.2.0
+-----------------------------
+1.16.4 is now the minimum required version of Minecraft.
+
+_Additions_
+
+- Igneous Extruder (Expansion)
+  - Generates various types of stone.
+  - Requires a lava source and various other adjacent blocks.
+  - The block under the Extruder may matter as well (for Basalt, for example).
+- Vacuumulator (Expansion)
+  - Sucks up Items (and maybe XP) in an area.
+  - Can use a Filter augment to restrict what it grabs.
+- Nullifier (Expansion)
+  - Destroys Items and Fluids inserted into it via automation.
+  - Items can be inserted manually via the GUI; a button is used to empty the inventory.
+  - Can use a Filter augment to restrict valid items.
+
+- Decoctive Diffuser (Innovation)
+  - Spreads potions in an area.
+  - Redstone or Glowstone can be used to boost the potion strength or duration.
+- Energetic Infuser (Innovation)
+  - Charges up to 9 items with Redstone Flux.
+  - Automation-compatible, but does not automatically transfer or have side configuration.
+
+- Filter Augment System
+  - Filter augments can be used in almost any block and will intelligently restrict input.
+  - These work in some tools (Currently the FluxoMagnet).
+  - Only a basic Item Filter for now. System is extensible and more filter types are coming.
+
+- XP Storage Augment
+  - Can be placed in many different blocks to enable XP collection (from recipes). XP must be manually removed by a player.
+  - This system will be elaborated on a bit more.
+
+- Certain blocks will play sounds when active. This can be disabled in the Client-side configuration.
+
+- Creative Augments which affect various aspects of blocks and tools.
+
+- Efficiency Augments for Machines.
+
+- Insightful Crystal
+  - Stores XP. Can be enchanted with Holding.
+  - Can automatically collect XP that a player picks up.
+  - More to come with this. ;)
+
+- Seeds now drop from grass. (Cultivation)
+
+- So. Much. Mod support.
+
+- Two new Casts for the Blast Chiller. No uses yet in Thermal directly, but some are coming. :)
+
+_Changes_
+
+- Augments are generally more intelligent about what they can be installed in.
+  - This isn't perfect and can't work on all augments (as custom ones are possible), but it's generally a lot more convenient.
+
+- Basalz now spawn in Basalt Delta biomes.
+
+- Crescent Hammer now applies an effect on hit. ;)
+
+- Cyclical Processing Augment will now work with Catalysts in the Pulverizer and Induction Smelter.
+
+- Loads and loads of refactors and changes under the hood to improve things.
+
+- Lots of Texture updates!
+
+- Potion (bottle) support is much better. :)
+
+- Redstone Control and Side Reconfiguration can be disabled by default and require augments.
+  - These augments are hidden and uncraftable unless this option is selected.
+  - Recipes for these augments can be adjusted with a datapack, naturally.
+
+_Fixes_
+
+- Energy Cells can no longer be extracted from - they push RF only.
+
+- Machines will no longer complete processes and void fluid if they do not have sufficient space in a tank.
+
+- Mob sounds have been remastered in Mono, which lets Minecraft correctly reduce their volume.
+
+- Watering Can and Phyto-Gro behavior has been adjusted to work more optimally.
+
 1.16.3-1.1.6
 -----------------------------
 _Changes_

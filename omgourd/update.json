@@ -1,6 +1,10 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.16.5": {
+		"1.2.0": "Updated for new CoFH Core."
+	},
 	"1.16.4": {
+		"1.2.0": "Updated for new CoFH Core.",
 		"1.1.0": "Updated for new CoFH Core.",
 		"1.0.0": "Initial 1.16 version. Config system updates."
 	},
@@ -16,8 +20,10 @@
 		"0.1.0b": "Initial release! 24 variants."
 	},
 	"promos": {
-		"1.16.4-latest": "1.1.0",
-		"1.16.4-recommended": "1.1.0",
+		"1.16.5-latest": "1.2.0",
+		"1.16.5-recommended": "1.2.0",
+		"1.16.4-latest": "1.2.0",
+		"1.16.4-recommended": "1.2.0",
 		"1.16.3-latest": "1.1.0",
 		"1.16.3-recommended": "1.1.0",
 		"1.15.2-latest": "1.0.0",

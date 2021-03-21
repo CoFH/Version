@@ -12,4 +12,4 @@ You can of course clone/copy any of this, but we have no idea why you'd want to.
 
 [CoFH Discord Channel](https://discordapp.com/invite/uRKrnbH)
 
-©2012-2018 Cult of the Full Hub / Team CoFH / CoFH
+©2012-2021 Cult of the Full Hub / Team CoFH / CoFH

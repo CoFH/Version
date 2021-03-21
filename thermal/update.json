@@ -1,6 +1,10 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.16.5": {
+		"1.2.0": "Content! Vacuumulator, Nullifier, Energetic Infuser, new augments! Minor fixes and QoL."
+	},
 	"1.16.4": {
+		"1.2.0": "Content! Vacuumulator, Nullifier, Energetic Infuser, new augments! Minor fixes and QoL.",
 		"1.1.6": "Backend changes, crash fix with Tinker Bench.",
 		"1.1.5": "Fix a minor issue with cell transfer restriction.",
 		"1.1.4": "Improve and optimize backend handler behavior substantially.",
@@ -34,8 +38,10 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.16.4-latest": "1.1.6",
-		"1.16.4-recommended": "1.1.6",
+		"1.16.5-latest": "1.2.0",
+		"1.16.5-recommended": "1.2.0",
+		"1.16.4-latest": "1.2.0",
+		"1.16.4-recommended": "1.2.0",
 		"1.16.3-latest": "1.1.6",
 		"1.16.3-recommended": "1.1.6",
 		"1.15.2-latest": "1.0.0",

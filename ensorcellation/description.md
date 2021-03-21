@@ -1,6 +1,6 @@
-__Active Development__: Minecraft 1.16.4
+__Active Development__: Minecraft 1.16.5
 
-__Maintenance__: Minecraft 1.16.3
+__Maintenance__: Minecraft 1.16.4
 
 __Website: [Team CoFH](https://teamcofh.com)__
 
@@ -90,8 +90,8 @@ __Shields__
 
 __Curses__
 
-- Curse of Foolishness: Prevents experience gain when using the item.
-- Curse of Mercy: Prevents a weapon from dealing a lethal blow.
+- Curse of Foolishness - _Helmet_: Prevents experience gain when using the item.
+- Curse of Mercy - _Weapon_: Prevents a weapon from dealing a lethal blow.
 
 ### __Overrides__
 
