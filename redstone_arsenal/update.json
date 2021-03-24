@@ -1,0 +1,15 @@
+{
+	"homepage": "https://teamcofh.com/downloads/",
+	"1.16.5": {
+		"1.0.0": "Initial 1.16 version. Config system updates."
+	},
+	"1.16.4": {
+		"1.0.0": "Initial 1.16 version. Config system updates."
+	},
+	"promos": {
+		"1.16.5-latest": "1.0.0",
+		"1.16.5-recommended": "1.0.0",
+		"1.16.4-latest": "1.0.0",
+		"1.16.4-recommended": "1.0.0"
+	}
+}
