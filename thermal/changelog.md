@@ -1,5 +1,51 @@
 Changelog - Thermal Series
 =============================
+1.16.5-1.3.0
+-----------------------------
+1.16.5 is now the minimum required version of Minecraft.
+
+_Additions_
+
+- Aquatic Entangler (Cultivation)
+  - Catches fish and other things from the water.
+  - Bait isn't required but will make it work much better.
+  - Bait can change the types of things which are caught.
+  - Biome and number of water blocks in front of it matter!
+  - Can use a Filter augment to restrict the final catch.
+
+- Bait
+  - For use in the Aquatic Entangler.
+  - It's data driven! You can make your own loot tables and then a bait entry to catch from it.
+
+- Explosives (Innovation / Locomotion)
+  - 4 new types of explosives: Redstone, Glowstone, Ender, Slime.
+  - Grenade, TNT, and Minecart variants.
+  - Have fun. :)
+
+- Flax (Cultivation)
+  - It's a crop. It makes string.
+  - The artwork is fantastic.
+
+- Resource Mushrooms (Cultivation)
+  - 4 types of mushrooms which when harvested, drop a generally non-renewable resource.
+  - These require Mycelium, Podzol, or (untilled) Phyto-Soil to grow.
+  - Glowstone, Redstone, Gunpowder, and Slime.
+  - Mushroom growth cannot be sped up with bone meal or Phyto-gro.
+
+- Recycling recipe support! (Pulverizer and Smelter)
+
+_Changes_
+
+- Adjusted behavior in the Induction Smelter somewhat to prevent really dumb things from happening.
+- Cells now have Transfer Control functionality and can extract from adjacent blocks.
+- Pulverizer and Smelter can now accept the Cyclical Processing augment for Catalyst reuse.
+- Refactors to where things live internally in preparation for 1.17+.
+
+_Fixes_
+
+- Fixed some weird XP calculation errors with the Insightful Crystal.
+- Minor visual fix with crops and Tilled Phyto-Soil.
+
 1.16.4-1.2.0
 -----------------------------
 1.16.4 is now the minimum required version of Minecraft.
@@ -10,9 +56,11 @@ _Additions_
   - Generates various types of stone.
   - Requires a lava source and various other adjacent blocks.
   - The block under the Extruder may matter as well (for Basalt, for example).
+
 - Vacuumulator (Expansion)
   - Sucks up Items (and maybe XP) in an area.
   - Can use a Filter augment to restrict what it grabs.
+
 - Nullifier (Expansion)
   - Destroys Items and Fluids inserted into it via automation.
   - Items can be inserted manually via the GUI; a button is used to empty the inventory.
@@ -21,6 +69,7 @@ _Additions_
 - Decoctive Diffuser (Innovation)
   - Spreads potions in an area.
   - Redstone or Glowstone can be used to boost the potion strength or duration.
+
 - Energetic Infuser (Innovation)
   - Charges up to 9 items with Redstone Flux.
   - Automation-compatible, but does not automatically transfer or have side configuration.
@@ -35,9 +84,7 @@ _Additions_
   - This system will be elaborated on a bit more.
 
 - Certain blocks will play sounds when active. This can be disabled in the Client-side configuration.
-
 - Creative Augments which affect various aspects of blocks and tools.
-
 - Efficiency Augments for Machines.
 
 - Insightful Crystal
@@ -46,9 +93,7 @@ _Additions_
   - More to come with this. ;)
 
 - Seeds now drop from grass. (Cultivation)
-
 - So. Much. Mod support.
-
 - Two new Casts for the Blast Chiller. No uses yet in Thermal directly, but some are coming. :)
 
 _Changes_
@@ -57,15 +102,10 @@ _Changes_
   - This isn't perfect and can't work on all augments (as custom ones are possible), but it's generally a lot more convenient.
 
 - Basalz now spawn in Basalt Delta biomes.
-
 - Crescent Hammer now applies an effect on hit. ;)
-
 - Cyclical Processing Augment will now work with Catalysts in the Pulverizer and Induction Smelter.
-
 - Loads and loads of refactors and changes under the hood to improve things.
-
 - Lots of Texture updates!
-
 - Potion (bottle) support is much better. :)
 
 - Redstone Control and Side Reconfiguration can be disabled by default and require augments.
@@ -75,11 +115,8 @@ _Changes_
 _Fixes_
 
 - Energy Cells can no longer be extracted from - they push RF only.
-
 - Machines will no longer complete processes and void fluid if they do not have sufficient space in a tank.
-
 - Mob sounds have been remastered in Mono, which lets Minecraft correctly reduce their volume.
-
 - Watering Can and Phyto-Gro behavior has been adjusted to work more optimally.
 
 1.16.3-1.1.6
@@ -149,25 +186,31 @@ _Fixes_
 _Additions_
 
 - CraftTweaker support is now provided. (Thanks Jared!)
+
 - Aqueous Accumulator
   - Provides LOTS of water.
   - Does not auto-output.
+
 - Energy and Fluid Cells
   - Store Energy or Fluids
   - Sides and flow amounts can be configured.
+
 - Pyrolyzer
   - Generally used for making Coke and Charcoal.
   - Base power is 1/4 of other machines (5 RF/t).
+
 - Fluids:
   - Crude Oil
   - Heavy Oil
   - Light Oil
   - Refined Fuel
   - Creosote Oil
+
 - Resources:
   - Bituminous Sand
   - Bitumen
   - Tar
+  
 - Capacitato - a basic battery made with a Potato.
 - Corn - crop and seeds. Trade with a villager to obtain.
 - Many new machine recipes have been added.
