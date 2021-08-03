@@ -1,5 +1,9 @@
 Changelog - Thermal Series
 =============================
+1.16.5-1.3.1
+-----------------------------
+-Fixes a minor issue with client configs not properly generating.
+
 1.16.5-1.3.0
 -----------------------------
 1.16.5 is now the minimum required version of Minecraft.
