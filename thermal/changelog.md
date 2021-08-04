@@ -1,5 +1,9 @@
 Changelog - Thermal Series
 =============================
+1.16.5-1.3.2
+-----------------------------
+-Fixes a minor issue with device configs not properly generating on the server.
+
 1.16.5-1.3.1
 -----------------------------
 -Fixes a minor issue with client configs not properly generating.
