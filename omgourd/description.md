@@ -1,6 +1,4 @@
-__Active Development__: Minecraft 1.16.4
-
-__Maintenance__: Minecraft 1.16.3
+__Active Development__: Minecraft 1.16.5
 
 __Website: [Team CoFH](https://teamcofh.com)__
 

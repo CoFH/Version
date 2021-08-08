@@ -1,7 +1,5 @@
 __Active Development__: Minecraft 1.16.5
 
-__Maintenance__: Minecraft 1.16.4
-
 __Website: [Team CoFH](https://teamcofh.com)__
 
 __Discord: [Team CoFH Discord](https://discordapp.com/invite/uRKrnbH)__
