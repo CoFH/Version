@@ -15,7 +15,7 @@ __This mod requires CoFH Core. It can be found here: [CoFH Core](https://www.cur
 - _Client_: `ensorcellation-client.toml` file located in `/config`
 - _Server_: `ensorcellation-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.
 
-Copying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.
+Copying this file to your `/defaultconfigs` folder will apply those configs to all newly created worlds.
 
 Dedicated servers will have this file in `/world/serverconfigs`
 

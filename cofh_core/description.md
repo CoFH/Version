@@ -17,7 +17,7 @@ Please read the overviews under "Historical" to get an idea what the mod offers 
 - _Client_: `cofh_core-client.toml` file located in `/config`
 - _Server_: `cofh_core-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.
 
-Copying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.
+Copying this file to your `/defaultconfigs` folder will apply those configs to all newly created worlds.
 
 Dedicated servers will have this file in `/world/serverconfigs`
 
