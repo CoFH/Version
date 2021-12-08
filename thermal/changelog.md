@@ -1,5 +1,64 @@
 Changelog - Thermal Series
 =============================
+1.16.5-1.4.0
+-----------------------------
+_Additions_
+
+- Amaranth (Cultivation)
+  - New crop, used to make Witch's Food Cake. It's also really pretty.
+
+- Config Options
+  - Blacklist for Satchel items. Populated with Shulker Boxes and the Satchel by default.
+  - There is now a configuration option to make Thermal's power system "standalone" - RF will NOT be compatible with FE if selected.
+    - This is off by default.
+
+- Decoration Blocks
+  - Slag and Rich Slag have some decorative versions now.
+
+- Dynamos (Expansion)
+  - Gourmand and Disenchantment. Self explanatory.
+
+- Engineer Vision
+  - This mode on the Crescent Hammer allows you to see the working radius of nearby area effect blocks.
+  - Super useful for lining up multiple blocks with an AE radius or setting up in-world automation.
+
+- Foods (Cultivation)
+  - Quite a few, all completed and normally available crops in the mod are now used.
+  - The foods are generally balanced vs vanilla foods and are meant to provide literal and figurative flavor.
+  - You can rotate the cheese!
+
+- Reservoir (Innovation)
+  - It's back upon request. :)
+  - Can hold 16 buckets of fluid and is of course, augmentable.
+
+- Satchel (Foundation/Core)
+  - It holds items and you can make it bigger.
+  - It can be dyed.
+
+- Slot Seal (Expansion)
+  - Put it in a slot to prevent inputs from going there.
+
+- Tool Improvements (Innovation)
+  - Most Thermal Innovation tools can now be dyed.
+  - Curios support for Thermal Innovation tools.
+
+_Changes_
+
+- Adjusted the Fluid cell render.
+
+- Improved and refactored a ton of code. Things are just nicer now and it'll be easier to port up. :)
+
+- Some items have been reorganized into new Creative Tabs.
+
+- The Crescent Hammer now has a mode toggle for Engineer Vision.
+
+_Fixes_
+
+- Corn and Flax now properly break if the farmland below them is destroyed.
+- Detonators are no longer stackable (oops).
+- Fixed a bug with the Insightful Crystal.
+- Fixed a bug with Item Filters denylist functionality and NBT option.
+
 1.16.5-1.3.2
 -----------------------------
 -Fixes a minor issue with device configs not properly generating on the server.
