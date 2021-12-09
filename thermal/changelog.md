@@ -1,5 +1,17 @@
 Changelog - Thermal Series
 =============================
+1.16.5-1.4.1
+-----------------------------
+_Changes_
+
+- Adjusted default sided behavior when Side Reconfiguration is disabled (and no augment present).
+- Reverted a reorganization of the language files to better allow for modpack compatibility.
+- The Reservoir can now be dyed, like all other augmentable tools.
+
+_Fixes_
+
+- Fixed some broken CTM texture files.
+
 1.16.5-1.4.0
 -----------------------------
 _Additions_
@@ -45,12 +57,15 @@ _Additions_
 _Changes_
 
 - Adjusted the Fluid cell render.
-
+- Experience, Honey, and Potion Bottles can now be directly emptied into/filled from Thermal blocks.
 - Improved and refactored a ton of code. Things are just nicer now and it'll be easier to port up. :)
-
 - Some items have been reorganized into new Creative Tabs.
-
 - The Crescent Hammer now has a mode toggle for Engineer Vision.
+
+- Recipe Handlers now support "fluid_tag" as an option - this *may* require other mods such as kube.js to update.
+
+- Many textures have been brought down into the "base" directory to make things easier for texture pack makers.
+- Textures have been moved to respective submodules where possible to provide clarity on which texture "lives" where.
 
 _Fixes_
 
