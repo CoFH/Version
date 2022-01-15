@@ -1,5 +1,25 @@
 Changelog - Thermal Series
 =============================
+1.16.5-1.4.2
+-----------------------------
+_Additions_
+
+- New augment: Auxiliary Cactus.
+  - Destroys excess non-primary item outputs.
+
+_Changes_
+
+- Improved localization updates.
+- The recipe for Slag Bricks and Polished Slag Bricks now makes 4.
+
+_Fixes_
+
+- Bad recipes now result in logged errors rather than bricking JEI or crashing the game. :) Even so, mods shouldn't be adding bad recipes.
+
+- Fluid Ingredients are now amount-sensitive.
+
+- Minor change to the Patchouli book to prevent crashes caused by Patchouli not understanding optional pages.
+
 1.16.5-1.4.1
 -----------------------------
 _Changes_
