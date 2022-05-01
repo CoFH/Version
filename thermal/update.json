@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.5": {
+		"1.4.5": "Minor bugfixes and updates.",
 		"1.4.2": "Minor recipe fixes and a new augment.",
 		"1.4.1": "Behavioral change to side configurations, allow for Reservoir to be dyed.",
 		"1.4.0": "Content! Satchel, Reservoir, Slot Seal, lots of new Foods and improvements. Curios support.",
@@ -44,8 +45,8 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.16.5-latest": "1.4.2",
-		"1.16.5-recommended": "1.4.2",
+		"1.16.5-latest": "1.4.5",
+		"1.16.5-recommended": "1.4.5",
 		"1.16.4-latest": "1.2.0",
 		"1.16.4-recommended": "1.2.0",
 		"1.16.3-latest": "1.1.6",
