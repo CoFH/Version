@@ -1,11 +1,13 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.16.5": {
+		"0.9.2b": "Final major 1.16.5 release.",
+		"0.9.1b": "Fixes a server-side crash bug.",
 		"0.9.0b": "Bugfixes and mechanical refinement",
 		"0.8.0b": "Initial 1.16 version. Reimagined!"
 	},
 	"promos": {
-		"1.16.5-latest": "0.9.0b",
-		"1.16.5-recommended": "0.9.0b"
+		"1.16.5-latest": "0.9.2b",
+		"1.16.5-recommended": "0.9.2b"
 	}
 }

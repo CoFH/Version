@@ -1,4 +1,4 @@
-__Active Development__: Minecraft 1.16.5
+__Active Development__: Minecraft 1.18.2
 
 __Website: [Team CoFH](https://teamcofh.com)__
 

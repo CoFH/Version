@@ -1,10 +1,16 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.18.2": {
+		"1.2.1": "Initial 1.18 release! Changed to work with JVM module restrictions."
+	},
 	"1.16.5": {
+		"1.1.0": "Final major 1.16.5 release.",
 		"1.0.0": "Initial 1.16 release!"
 	},
 	"promos": {
-		"1.16.5-latest": "1.0.0",
-		"1.16.5-recommended": "1.0.0"
+		"1.18.2-latest": "1.2.1",
+		"1.18.2-recommended": "1.2.1",
+		"1.16.5-latest": "1.1.0",
+		"1.16.5-recommended": "1.1.0"
 	}
 }

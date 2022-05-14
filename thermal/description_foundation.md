@@ -1,6 +1,6 @@
 ![Thermal Foundation](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_foundation.png "Thermal Foundation")
 
-__Active Development__: Minecraft 1.16.5
+__Active Development__: Minecraft 1.18.2
 
 __Website: [Team CoFH](https://teamcofh.com)__
 
@@ -24,7 +24,8 @@ The mods are still being updated regularly and the Series is not complete yet! W
 
 ### __Configuration__
 
-- _Client_: `thermal-client.toml` file located in `/config`
+- _Client_: `thermal-client.toml` file located in `/config` - contains client-specific options.
+- _Common_: `thermal-common.toml` file located in `/config` - contains worldgen options.
 - _Server_: `thermal-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.
 
 Copying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.

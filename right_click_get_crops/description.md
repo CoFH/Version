@@ -1,6 +1,6 @@
 ![Right Click, Get Crops](https://raw.githubusercontent.com/CoFH/Version/master/right_click_get_crops/logo.png "Right Click, Get Crops")
 
-__Active Development__: Minecraft 1.16.5
+__Active Development__: Minecraft 1.18.2
 
 __Website: [Team CoFH](https://teamcofh.com)__
 

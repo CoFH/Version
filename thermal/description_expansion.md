@@ -1,6 +1,6 @@
 ![Thermal Expansion](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_expansion.png "Thermal Expansion")
 
-__Active Development__: Minecraft 1.16.5
+__Active Development__: Minecraft 1.18.2
 
 __Website: [Team CoFH](https://teamcofh.com)__
 

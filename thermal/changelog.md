@@ -1,5 +1,27 @@
 Changelog - Thermal Series
 =============================
+1.18.2-1.6.0
+-----------------------------
+Initial 1.18.2 Port!
+
+_Additions_
+
+- Deepslate Ores and raw materials have been added for the metal ores.
+- World Generation is now configurable. (using the -common.cfg)
+
+_Changes_
+
+- Copper ore and storage block have been removed.
+- Copper textures have been adjusted throughout the mod.
+
+- Mod compatibility recipes have been REMOVED for now. These will be provided externally via a datapack or another upcoming mod.
+
+- Ores now drop raw material where applicable.
+
+1.16.5-1.5.0
+-----------------------------
+- Updated some localizations and underlying mod structure.
+
 1.16.5-1.4.2
 -----------------------------
 _Additions_
