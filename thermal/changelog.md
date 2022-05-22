@@ -1,5 +1,17 @@
 Changelog - Thermal Series
 =============================
+1.18.2-1.6.1
+-----------------------------
+
+_Changes_
+
+- Rebalanced the Induction Smelter Raw Ore recipes.
+
+_Fixes_
+
+- Updated a couple of copper textures missed in the first round.
+- Worldgen configs are more consistent.
+
 1.18.2-1.6.0
 -----------------------------
 Initial 1.18.2 Port!
