@@ -1,5 +1,17 @@
 Changelog - Thermal Series
 =============================
+1.18.2-1.6.2
+-----------------------------
+
+_Changes_
+
+- Adjusted a number of recipe conditions.
+- Tweaked a few textures slightly.
+
+_Fixes_
+
+- Phyto-Soil now counts as dirt.
+
 1.18.2-1.6.1
 -----------------------------
 

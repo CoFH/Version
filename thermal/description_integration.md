@@ -24,13 +24,7 @@ The mods are still being updated regularly and the Series is not complete yet! W
 
 ### __Configuration__
 
-- _Client_: `thermal-client.toml` file located in `/config` - contains client-specific options.
-- _Common_: `thermal-common.toml` file located in `/config` - contains worldgen options.
-- _Server_: `thermal-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.
-
-Copying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.
-
-Dedicated servers will have this file in `/world/serverconfigs`
+- _Common_: `thermal-integration_common.toml` file located in `/config` - contains material and mod compatibility options.
 
 ## __Features__
 
