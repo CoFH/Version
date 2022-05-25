@@ -44,7 +44,7 @@ WIP - Thanks for your patience.
 
 - __[Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation) - Farming and Foods__
 - __[Thermal Dynamics - Not Yet Updated to 1.16](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) - Logistics and Transport__
-- __[Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion - Machinery and Industry (The original mod)__
+- __[Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion) - Machinery and Industry (The original mod)__
 - __[Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation) - Advanced Power Tools and Gadgets__
 - __[Thermal Integration](https://www.curseforge.com/minecraft/mc-mods/thermal-integration) - Modded Compatibility Enhancements__
 - __[Thermal Locomotion](https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion) - Rails and Minecarts__
