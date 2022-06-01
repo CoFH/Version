@@ -30,7 +30,19 @@ The mods are still being updated regularly and the Series is not complete yet! W
 
 This section describes features available for the version under active development. Older versions may have different features.
 
-WIP - Thanks for your patience.
+Currently, the mod adds two alloy materials and the appropriate dust, ingot, nugget, coin, plate, and block for each:
+
+- Rose Gold
+- Steel
+
+Recipe support in Thermal machines is added for the following mods:
+
+- Create
+- [Dyenamics](https://www.curseforge.com/minecraft/mc-mods/dyenamics)
+- Farmer's Delight
+- Quark
+- Refined Storage
+- Tinker's Construct
 
 ![Thermal Series](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_series.png "Thermal Series") 
 
