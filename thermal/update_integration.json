@@ -1,10 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.18.2": {
+		"1.6.3": "More mod support. Minor bugfixes.",
 		"1.6.0": "Initial 1.18.2 release!"
 	},
 	"promos": {
-		"1.18.2-latest": "1.6.0",
-		"1.18.2-recommended": "1.6.0"
+		"1.18.2-latest": "1.6.3",
+		"1.18.2-recommended": "1.6.3"
 	}
 }

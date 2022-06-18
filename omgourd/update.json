@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.18.2": {
+		"1.6.1": "Support for backend refactors.",
 		"1.6.0": "Initial 1.18.2 release!"
 	},
 	"1.16.5": {
@@ -27,8 +28,8 @@
 		"0.1.0b": "Initial release! 24 variants."
 	},
 	"promos": {
-		"1.18.2-latest": "1.6.0",
-		"1.18.2-recommended": "1.6.0",
+		"1.18.2-latest": "1.6.1",
+		"1.18.2-recommended": "1.6.1",
 		"1.16.5-latest": "1.5.0",
 		"1.16.5-recommended": "1.5.0",
 		"1.16.4-latest": "1.2.0",

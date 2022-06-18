@@ -1,5 +1,27 @@
 Changelog - Thermal Series
 =============================
+1.18.2-1.6.3
+-----------------------------
+
+_Additions_
+
+- New Device: Batch Composter.
+  - Like a composter, but can be automated a bit more easily.
+  - Produces Compost, which is slightly better than Bonemeal.
+
+- New Augment: Excitation Field Limiter
+  - Prevents Dynamos from wasting Fuel if they can't send RF.
+
+_Changes_
+
+- Cinnabar Dust is now a slightly different Smelter Catalyst.
+- Improved JEI support for Potion Fluids.
+
+_Fixes_
+
+- Fix a couple of broken mod-compat recipes.
+- Satchel GUI closes correctly if the Satchel is removed from the inventory.
+
 1.18.2-1.6.2
 -----------------------------
 
