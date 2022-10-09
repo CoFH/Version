@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.18.2": {
+		"2.0.0": "Semver adjustment, massive backend refactors. New bronze textures.",
 		"1.1.0": "Initial 1.18 release! New copper textures."
 	},
 	"1.16.5": {
@@ -8,8 +9,8 @@
 		"1.0.0": "Initial 1.16 release!"
 	},
 	"promos": {
-		"1.18.2-latest": "1.1.0",
-		"1.18.2-recommended": "1.1.0",
+		"1.18.2-latest": "2.0.0",
+		"1.18.2-recommended": "2.0.0",
 		"1.16.5-latest": "1.0.2",
 		"1.16.5-recommended": "1.0.2"
 	}

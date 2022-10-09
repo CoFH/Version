@@ -1,5 +1,26 @@
 Changelog - Thermal Series
 =============================
+1.18.2-9.0.0
+-----------------------------
+
+_Additions_
+
+- New Augment: Fluid Filter
+  - Does basically what you think it does.
+
+- New Machine: Crystallizer
+  - Takes a fluid and a gem dust and recrystallizes it into a gem. Can also grow Amethyst.
+
+_Changes_
+
+- Most Fluid-related recipes (Cells, etc.) now use Bronze instead of Copper.
+- Semantic Versioning consistency adjustment - every new Minecraft version is a "major" release. We did the math retroactively.
+
+_Fixes_
+
+- Fix a minor issue with Redprints.
+- Minor JEI fixes.
+
 1.18.2-1.6.3
 -----------------------------
 
@@ -63,6 +84,10 @@ _Changes_
 - Mod compatibility recipes have been REMOVED for now. These will be provided externally via a datapack or another upcoming mod.
 
 - Ores now drop raw material where applicable.
+
+1.16.5-1.5.2
+-----------------------------
+- Fix a minor issue with Redprints.
 
 1.16.5-1.5.0
 -----------------------------

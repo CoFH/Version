@@ -1,11 +1,12 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.18.2": {
+		"9.0.0": "Semver adjustment, more backend work.",
 		"1.6.3": "Backend refactors in prep for 1.19.",
 		"1.6.0": "Initial 1.18.2 release!"
 	},
 	"promos": {
-		"1.18.2-latest": "1.6.3",
-		"1.18.2-recommended": "1.6.3"
+		"1.18.2-latest": "9.0.0",
+		"1.18.2-recommended": "9.0.0"
 	}
 }
