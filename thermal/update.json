@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.18.2": {
+		"9.1.0": "Update for compatibility with new CoFH Core. Minor fixes.",
 		"9.0.0": "Semver adjustment, massive internal refactors. Added Fluid Filter.",
 		"1.6.3": "Bugfixes, couple new features. Backend refactors in prep for 1.19.",
 		"1.6.2": "Additional mod infrastructure and localization.",
@@ -53,8 +54,8 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
-		"1.18.2-latest": "9.0.0",
-		"1.18.2-recommended": "9.0.0",
+		"1.18.2-latest": "9.1.0",
+		"1.18.2-recommended": "9.1.0",
 		"1.16.5-latest": "1.5.2",
 		"1.16.5-recommended": "1.5.2",
 		"1.16.4-latest": "1.2.0",
