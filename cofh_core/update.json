@@ -1,6 +1,10 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.19.2": {
+		"10.0.0": "Initial 1.19.x release!"
+	},
 	"1.18.2": {
+		"9.1.1": "Fix a couple of minor Forge complaints and a rare crash.",
 		"9.1.0": "More backend refactors; unification with 10.0 branch where possible.",
 		"9.0.0": "Semver adjustment, massive backend refactors.",
 		"1.6.4": "Minor bugfixes and refactors.",
@@ -64,6 +68,8 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
+		"1.19.2-latest": "10.0.0",
+		"1.19.2-recommended": "10.0.0",
 		"1.18.2-latest": "9.1.0",
 		"1.18.2-recommended": "9.1.0",
 		"1.16.5-latest": "1.5.2",

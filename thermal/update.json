@@ -1,5 +1,8 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.19.2": {
+		"10.0.0": "Initial 1.19.x release!"
+	},
 	"1.18.2": {
 		"9.1.0": "Update for compatibility with new CoFH Core. Minor fixes.",
 		"9.0.0": "Semver adjustment, massive internal refactors. Added Fluid Filter.",
@@ -54,6 +57,8 @@
 		"0.1.0b": "Public beta test version!"
 	},
 	"promos": {
+		"1.19.2-latest": "10.0.0",
+		"1.19.2-recommended": "10.0.0",
 		"1.18.2-latest": "9.1.0",
 		"1.18.2-recommended": "9.1.0",
 		"1.16.5-latest": "1.5.2",
