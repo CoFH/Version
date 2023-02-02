@@ -1,4 +1,4 @@
-![Thermal Horizons](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_horizons.png "Thermal Horizons")
+![Thermal Dynamics](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_dynamics.png "Thermal Dynamics")
 
 __Active Development__: Minecraft 1.18.2, 1.19.2
 
@@ -10,7 +10,7 @@ __Changelog: [Changelog](https://raw.githubusercontent.com/CoFH/Version/main/the
 
 ---
 
-Thermal integrates with others!
+Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!
 
 For nearly a decade, the Thermal Series mods have been a cornerstone of modded gameplay. They've pioneered gameplay innovations and optimizations used in practically every modern mod in existence. The Forge Energy system was built from Redstone Flux, and many common modded features - side reconfiguration, advanced redstone control, blue/orange input coloring - all started with the Thermal Series.
 
@@ -18,7 +18,7 @@ The Thermal Series is a modular series of mods, allowing players, server owners,
 
 As a set, the mods form a cohesive experience which greatly expands the Minecraft universe in a lore-friendly (but admittedly technological) way.
 
-This module contains "Integration" - all of the compatibility materials, recipes, and enhancements to make the Thermal Series play even better alongside some common - and not so common - mods.
+This module contains "Dynamics" - the original mod in the series, going all the way back to Minecraft 1.2.5. It contains the "industrial base" of the Series, providing options for energy generation, storage, and resource processing!
 
 The mods are still being updated regularly and the Series is not complete yet! We're working on it and appreciate your patience. Even so, there's a LOT of stuff for both newcomers and veterans. We hope you enjoy the new Thermal Series.
 
@@ -44,13 +44,13 @@ WIP - Thanks for your patience.
 
 - __[Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) - Basics and Resources__
 - __[Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation) - Farming and Foods__
-- __[Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) - Logistics and Transport__
-- __[Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion) - Machinery and Industry (The original mod)__
+- __[Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) - Machinery and Industry (The original mod)__
 - __[Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation) - Advanced Power Tools and Gadgets__
+- __[Thermal Integration](https://www.curseforge.com/minecraft/mc-mods/thermal-integration) - Modded Compatibility Enhancements__
 - __[Thermal Locomotion](https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion) - Rails and Minecarts__
 
 __This mod series requires CoFH Core. It can be found here: [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core)__
 
 ## __Historical__
 
-The historical changelog can be found here for versions prior to 1.14: __[Old Changelog](https://github.com/CoFH/Version/blob/master/thermallocomotion_changelog.txt)__
+The historical changelog can be found here for versions prior to 1.14: __[Old Changelog](https://github.com/CoFH/Version/blob/master/thermaldynamics_changelog.txt)__

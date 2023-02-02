@@ -1,6 +1,6 @@
 ![Thermal Innovation](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_innovation.png "Thermal Innovation")
 
-__Active Development__: Minecraft 1.18.2
+__Active Development__: Minecraft 1.18.2, 1.19.2
 
 __Website: [Team CoFH](https://teamcofh.com)__
 
@@ -25,7 +25,7 @@ The mods are still being updated regularly and the Series is not complete yet! W
 ### __Configuration__
 
 - _Client_: `thermal-client.toml` file located in `/config` - contains client-specific options.
-- _Common_: `thermal-common.toml` file located in `/config` - contains worldgen options.
+- _Common_: `thermal-common.toml` file located in `/config` - contains worldgen options (1.18.2 only).
 - _Server_: `thermal-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.
 
 Copying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.
@@ -44,7 +44,7 @@ WIP - Thanks for your patience.
 
 - __[Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) - Basics and Resources__
 - __[Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation) - Farming and Foods__
-- __[Thermal Dynamics - Not Yet Updated to 1.16](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) - Logistics and Transport__
+- __[Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) - Logistics and Transport__
 - __[Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion) - Machinery and Industry (The original mod)__
 - __[Thermal Integration](https://www.curseforge.com/minecraft/mc-mods/thermal-integration) - Modded Compatibility Enhancements__
 - __[Thermal Locomotion](https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion) - Rails and Minecarts__
