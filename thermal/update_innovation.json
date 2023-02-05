@@ -1,9 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.19.2": {
+		"10.2.0": "Lots of under the hood changes. Dynamics compatibility.",
 		"10.0.0": "Initial 1.19.x release!"
 	},
 	"1.18.2": {
+		"9.2.0": "Lots of under the hood changes. Dynamics compatibility.",
 		"9.1.0": "Update for compatibility with new CoFH Core.",
 		"9.0.0": "Semver adjustment, updated tool graphics.",
 		"1.6.3": "Backend refactors in prep for 1.19.",
@@ -11,9 +13,9 @@
 		"1.6.0": "Initial 1.18.2 release!"
 	},
 	"promos": {
-		"1.19.2-latest": "10.0.0",
-		"1.19.2-recommended": "10.0.0",
-		"1.18.2-latest": "9.1.0",
-		"1.18.2-recommended": "9.1.0"
+		"1.19.2-latest": "10.2.0",
+		"1.19.2-recommended": "10.2.0",
+		"1.18.2-latest": "9.2.0",
+		"1.18.2-recommended": "9.2.0"
 	}
 }

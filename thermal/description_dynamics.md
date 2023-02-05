@@ -10,7 +10,7 @@ __Changelog: [Changelog](https://raw.githubusercontent.com/CoFH/Version/main/the
 
 ---
 
-Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!
+Thermal gets Dynamic!
 
 For nearly a decade, the Thermal Series mods have been a cornerstone of modded gameplay. They've pioneered gameplay innovations and optimizations used in practically every modern mod in existence. The Forge Energy system was built from Redstone Flux, and many common modded features - side reconfiguration, advanced redstone control, blue/orange input coloring - all started with the Thermal Series.
 
@@ -18,7 +18,7 @@ The Thermal Series is a modular series of mods, allowing players, server owners,
 
 As a set, the mods form a cohesive experience which greatly expands the Minecraft universe in a lore-friendly (but admittedly technological) way.
 
-This module contains "Dynamics" - the original mod in the series, going all the way back to Minecraft 1.2.5. It contains the "industrial base" of the Series, providing options for energy generation, storage, and resource processing!
+This module contains "Dynamics" - containing ducts which allow for transport of Energy and Fluids across distances great and small, as well as additional logistical blocks related to transport.
 
 The mods are still being updated regularly and the Series is not complete yet! We're working on it and appreciate your patience. Even so, there's a LOT of stuff for both newcomers and veterans. We hope you enjoy the new Thermal Series.
 

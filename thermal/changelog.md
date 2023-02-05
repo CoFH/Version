@@ -1,5 +1,103 @@
 Changelog - Thermal Series
 =============================
+1.19.2-10.2.0
+-----------------------------
+
+- Changed:
+	- Satchels now drop extra items they may be carrying if their storage changes below a previous maximum.
+	- Tectonic Explosives now gather items to the center, reducing lag.
+
+Thermal Cultivation:
+
+- Added:
+	- Roasted Corn on the Cob
+	- Roasted Eggplant
+	- Roasted Mushroom
+
+	These are really just intended to provide some early-game food variety.
+
+Thermal Dynamics (Released!):
+
+- Blocks:
+	- Logistical Item Buffer:
+		- You can specify the item and amount you want in each slot individually.
+		- Two modes:
+			- Passthrough: The buffer can act as a pass-through, always allowing extraction. Basically a chunky filter that also restricts count.
+			- Latched: Allows extraction (and prevents input) once all of the items are present in the configured quantities. Once they are all gone, it will go back into allowing input (and preventing extraction).
+- Ducts:
+	- Fluxducts
+		- These transmit RF. How much? Enough.
+	- Fluiducts
+		- These move fluids. How much? Enough.
+
+- Attachments:
+	- Redstone Flux Limiter
+		- Goes on Fluxducts. Lets you set transfer limits for a given connection, should you wish.
+	- Filters
+		- Three modes to adjust directional filtering.
+	- Servos
+		- Lots of filter slots, slow extraction.
+	- Turbo-Servos
+		- Single filter slot, configurable (and very high) extraction.
+
+Thermal Integration:
+
+- Added:
+	- Addtional compatibility for Create and Farmer's Delight.
+
+=============================
+1.19.2-10.0.0
+-----------------------------
+
+- Straight port from 1.18.2.
+
+=============================
+1.18.2-9.2.0
+-----------------------------
+
+- Changed:
+	- Satchels now drop extra items they may be carrying if their storage changes below a previous maximum.
+	- Tectonic Explosives now gather items to the center, reducing lag.
+
+Thermal Cultivation:
+
+- Added:
+	- Roasted Corn on the Cob
+	- Roasted Eggplant
+	- Roasted Mushroom
+
+	These are really just intended to provide some early-game food variety.
+
+Thermal Dynamics (Released!):
+
+- Blocks:
+	- Logistical Item Buffer:
+		- You can specify the item and amount you want in each slot individually.
+		- Two modes:
+			- Passthrough: The buffer can act as a pass-through, always allowing extraction. Basically a chunky filter that also restricts count.
+			- Latched: Allows extraction (and prevents input) once all of the items are present in the configured quantities. Once they are all gone, it will go back into allowing input (and preventing extraction).
+- Ducts:
+	- Fluxducts
+		- These transmit RF. How much? Enough.
+	- Fluiducts
+		- These move fluids. How much? Enough.
+
+- Attachments:
+	- Redstone Flux Limiter
+		- Goes on Fluxducts. Lets you set transfer limits for a given connection, should you wish.
+	- Filters
+		- Three modes to adjust directional filtering.
+	- Servos
+		- Lots of filter slots, slow extraction.
+	- Turbo-Servos
+		- Single filter slot, configurable (and very high) extraction.
+
+Thermal Integration:
+
+- Added:
+	- Addtional compatibility for Create and Farmer's Delight.
+
+=============================
 1.18.2-9.0.0
 -----------------------------
 

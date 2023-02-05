@@ -1,9 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.19.2": {
+		"4.2.0": "Update for compatibility with new CoFH Core.",
 		"4.0.0": "Initial 1.19.x release!"
 	},
 	"1.18.2": {
+		"3.2.0": "Update for compatibility with new CoFH Core.",
 		"3.1.0": "Update for compatibility with new CoFH Core.",
 		"3.0.0": "Semver adjustment, massive backend refactors.",
 		"1.6.1": "Support for backend refactors.",
@@ -50,10 +52,10 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.19.2-latest": "4.0.0",
-		"1.19.2-recommended": "4.0.0",
-		"1.18.2-latest": "3.1.0",
-		"1.18.2-recommended": "3.1.0",
+		"1.19.2-latest": "4.2.0",
+		"1.19.2-recommended": "4.2.0",
+		"1.18.2-latest": "3.2.0",
+		"1.18.2-recommended": "3.2.0",
 		"1.16.5-latest": "1.5.0",
 		"1.16.5-recommended": "1.5.0",
 		"1.16.4-latest": "1.2.0",
