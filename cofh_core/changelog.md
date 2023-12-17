@@ -2,6 +2,15 @@
 This changelog goes back to the most recent semver consistency adjustment and is not comprehensive of the entire mod's history.
 ## 1.19.2
 
+### 10.3.0
+_Changed_
+- Lots of backend changes and adjustments.
+
+_Fixed_
+- Adjustments to Overlay Message Handling to work properly on all server types.
+- Fixed an issue with slots voiding items in certain circumstances.
+- Packets have some extra null checks.
+
 ### 10.2.1
 _Fixed_
 - Fixed an issue with FluidIngredient NBT serialization.
@@ -32,6 +41,12 @@ _Changed_
 - Semantic Versioning consistency adjustment - every new Minecraft version is a "major" release. We did the math retroactively.
 
 ## 1.18.2
+
+### 9.2.2
+_Fixed_
+- Adjustments to Overlay Message Handling to work properly on all server types.
+- Fixed an issue with slots voiding items in certain circumstances.
+- Packets have some extra null checks.
 
 ### 9.2.1
 _Fixed_

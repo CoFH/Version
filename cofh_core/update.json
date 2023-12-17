@@ -1,12 +1,14 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.19.2": {
+		"10.3.0": "Good bugfixes.",
 		"10.2.0": "Lots of under the hood changes.",
 		"10.0.2": "Fix a rare race condition.",
 		"10.0.1": "Fix an issue with item storage.",
 		"10.0.0": "Initial 1.19.x release!"
 	},
 	"1.18.2": {
+		"9.2.2": "Good bugfixes.",
 		"9.2.0": "Lots of under the hood changes.",
 		"9.1.2": "Fix an issue with item storage.",
 		"9.1.1": "Fix a couple of minor Forge complaints and a rare crash.",
@@ -73,10 +75,10 @@
 		"0.0.1a": "Alpha Test!"
 	},
 	"promos": {
-		"1.19.2-latest": "10.2.0",
-		"1.19.2-recommended": "10.2.0",
-		"1.18.2-latest": "9.2.0",
-		"1.18.2-recommended": "9.2.0",
+		"1.19.2-latest": "10.3.0",
+		"1.19.2-recommended": "10.3.0",
+		"1.18.2-latest": "9.2.2",
+		"1.18.2-recommended": "9.2.2",
 		"1.16.5-latest": "1.5.2",
 		"1.16.5-recommended": "1.5.2",
 		"1.16.4-latest": "1.2.1",

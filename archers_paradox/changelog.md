@@ -3,6 +3,9 @@ This changelog goes back to the most recent semver consistency adjustment and is
 
 ## 1.19.2
 
+### 4.3.0
+Compatibility update for CoFH Core changes.
+
 ### 4.2.0
 Compatibility update for CoFH Core changes.
 
@@ -10,6 +13,9 @@ Compatibility update for CoFH Core changes.
 Initial 1.19.x release!
 
 ## 1.18.2
+
+### 3.2.1
+Compatibility update for CoFH Core changes.
 
 ### 3.2.0
 Compatibility update for CoFH Core changes.
