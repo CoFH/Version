@@ -1,5 +1,9 @@
 ## Archer's Paradox Changelog
 This changelog goes back to the most recent semver consistency adjustment and is not comprehensive of the entire mod's history.
+## 1.20.1
+
+### 5.0.0
+Initial port to 1.20.1.
 
 ## 1.19.2
 

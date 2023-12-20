@@ -1,5 +1,27 @@
 Changelog - Thermal Series
 =============================
+1.20.1-11.0.0
+-----------------------------
+
+- Ported from 1.19.2.
+
+- New:
+  - JEI now displays the XP that recipes produce if a Knowledge Concentrator is installed.
+  - More recipes grant XP.
+
+Thermal Foundation:
+
+- Added:
+  - Rubberwood Hanging Sign
+
+=============================
+1.19.2-10.3.0
+-----------------------------
+
+- New Device: Insightful Condenser
+  - Extracts XP from nearby machines which have produced and stored it (using the augment); converts to Essence of Knowledge.
+
+=============================
 1.19.2-10.2.0
 -----------------------------
 

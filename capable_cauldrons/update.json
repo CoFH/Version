@@ -1,5 +1,8 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.20.1": {
+		"1.2.0": "Initial 1.20.1 release!"
+	},
 	"1.19.2": {
 		"1.1.1": "Fixes an issue with fluids being overwritten in full cauldrons.",
 		"1.1.0": "Initial 1.19 release!"
@@ -9,6 +12,8 @@
 		"1.0.0": "Initial 1.18 release!"
 	},
 	"promos": {
+		"1.20.1-latest": "1.2.0",
+		"1.20.1-recommended": "1.2.0",
 		"1.19.2-latest": "1.1.1",
 		"1.19.2-recommended": "1.1.1",
 		"1.18.2-latest": "1.0.1",

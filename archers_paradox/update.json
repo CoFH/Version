@@ -1,5 +1,11 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
+	"1.20.1": {
+		"11.0.0": "Initial 1.20.1 release!"
+	},
+	"1.20.1": {
+		"5.0.0": "Initial 1.20.1 release!"
+	},
 	"1.19.2": {
 		"4.3.0": "Update for compatibility with new CoFH Core.",
 		"4.2.0": "Update for compatibility with new CoFH Core.",
@@ -44,7 +50,11 @@
 		"0.3.0b": "Minor behavior adjustments.",
 		"0.1.0b": "And we're in beta!"
 	},
-	"promos": {
+		"promos": {
+		"1.20.1-latest": "11.0.0",
+		"1.20.1-recommended": "11.0.0",
+		"1.20.1-latest": "5.0.0",
+		"1.20.1-recommended": "5.0.0",
 		"1.19.2-latest": "4.3.0",
 		"1.19.2-recommended": "4.3.0",
 		"1.18.2-latest": "3.2.1",
