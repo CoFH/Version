@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.20.1": {
+		"11.0.1": "Florbs! And worldgen fixes.",
 		"11.0.0": "Initial 1.20.1 release!"
 	},
 	"1.19.2": {
@@ -8,8 +9,8 @@
 		"10.0.0": "Semver adjustment, jar-in-jar structuring."
 	},
 		"promos": {
-		"1.20.1-latest": "11.0.0",
-		"1.20.1-recommended": "11.0.0",
+		"1.20.1-latest": "11.0.1",
+		"1.20.1-recommended": "11.0.1",
 		"1.19.2-latest": "10.3.0",
 		"1.19.2-recommended": "10.3.0"
 	}

@@ -1,5 +1,21 @@
 Changelog - Thermal Series
 =============================
+1.20.1-11.0.1
+-----------------------------
+
+- Changed:
+  - Minor adjustments to Creative Tab sorting.
+
+Thermal Foundation:
+
+- Added:
+  - Florbs!
+
+- Fixed:
+  - Some items were not correctly showing in Creative Tabs. They now do.
+  - Rubberwood trees now properly generate in the appropriate amounts and places.
+
+=============================
 1.20.1-11.0.0
 -----------------------------
 
