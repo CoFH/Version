@@ -1,6 +1,8 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.20.1": {
+		"11.0.3": "Tag fixes, remove Bamboo Block.",
+		"11.0.2": "Merry Christmas!",
 		"11.0.1": "Florbs! And worldgen fixes.",
 		"11.0.0": "Initial 1.20.1 release!"
 	},
@@ -63,8 +65,8 @@
 		"0.1.0b": "Public beta test version!"
 	},
 		"promos": {
-		"1.20.1-latest": "11.0.1",
-		"1.20.1-recommended": "11.0.1",
+		"1.20.1-latest": "11.0.3",
+		"1.20.1-recommended": "11.0.3",
 		"1.19.2-latest": "10.3.0",
 		"1.19.2-recommended": "10.3.0",
 		"1.18.2-latest": "9.2.0",

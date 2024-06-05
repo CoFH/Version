@@ -1,5 +1,27 @@
 Changelog - Thermal Series
 =============================
+1.20.1-11.0.4
+-----------------------------
+
+- More graceful error handling for Arboreal Extractor changes.
+- Generic/"Fallback" recipes introduced for a number of machines.
+
+1.20.1-11.0.3
+-----------------------------
+
+- Fix some tags.
+- Remove "Rockwool" flag.
+- Remove Bamboo Block.
+
+Lots of minor fixes to things not properly showing up in Creative / JEI.
+
+1.20.1-11.0.2
+-----------------------------
+
+- Merry Christmas!!!
+
+- New client configuration options. But don't be a grinch.
+
 1.20.1-11.0.1
 -----------------------------
 
@@ -15,7 +37,6 @@ Thermal Foundation:
   - Some items were not correctly showing in Creative Tabs. They now do.
   - Rubberwood trees now properly generate in the appropriate amounts and places.
 
-=============================
 1.20.1-11.0.0
 -----------------------------
 
@@ -30,14 +51,12 @@ Thermal Foundation:
 - Added:
   - Rubberwood Hanging Sign
 
-=============================
 1.19.2-10.3.0
 -----------------------------
 
 - New Device: Insightful Condenser
   - Extracts XP from nearby machines which have produced and stored it (using the augment); converts to Essence of Knowledge.
 
-=============================
 1.19.2-10.2.0
 -----------------------------
 
@@ -83,13 +102,11 @@ Thermal Integration:
 - Added:
 	- Addtional compatibility for Create and Farmer's Delight.
 
-=============================
 1.19.2-10.0.0
 -----------------------------
 
 - Straight port from 1.18.2.
 
-=============================
 1.18.2-9.2.0
 -----------------------------
 
@@ -135,7 +152,6 @@ Thermal Integration:
 - Added:
 	- Addtional compatibility for Create and Farmer's Delight.
 
-=============================
 1.18.2-9.0.0
 -----------------------------
 

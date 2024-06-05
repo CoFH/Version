@@ -1,6 +1,7 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.20.1": {
+		"11.0.1": "JEI/Creative Tab fixes.",
 		"11.0.0": "Initial 1.20.1 release!"
 	},
 	"1.19.2": {
@@ -16,8 +17,8 @@
 		"1.6.0": "Initial 1.18.2 release!"
 	},
 		"promos": {
-		"1.20.1-latest": "11.0.0",
-		"1.20.1-recommended": "11.0.0",
+		"1.20.1-latest": "11.0.1",
+		"1.20.1-recommended": "11.0.1",
 		"1.19.2-latest": "10.3.0",
 		"1.19.2-recommended": "10.3.0",
 		"1.18.2-latest": "9.2.0",

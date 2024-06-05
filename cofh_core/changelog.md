@@ -2,6 +2,20 @@
 This changelog goes back to the most recent semver consistency adjustment and is not comprehensive of the entire mod's history.
 ## 1.20.1
 
+### 11.0.2
+_Fixed_
+- Bugfix and compatibility improvement related to BlockIngredient.
+
+### 11.0.1
+_Changed_
+- Adjusted Potion Fluid tag handling. It's an improvement for generic potions.
+- Keybind localization now handled differently.
+- Localization updates.
+
+_Fixed_
+- Bugfixes for some slot logic.
+- Fixed an issue with mob effect display.
+
 ### 11.0.0
 Initial port to 1.20.1.
 

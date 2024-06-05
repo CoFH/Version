@@ -1,7 +1,9 @@
 {
 	"homepage": "https://teamcofh.com/downloads/",
 	"1.20.1": {
-		"1.2.0": "Initial 1.20.1 release!"
+		"11.0.2": "Bugfix and compatibility improvements related to BlockIngredient.",
+		"11.0.1": "Minor bugfixes.",
+		"11.0.0": "Initial 1.20.1 release!"
 	},
 	"1.19.2": {
 		"10.3.0": "Good bugfixes.",

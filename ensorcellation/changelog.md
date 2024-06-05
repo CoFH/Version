@@ -2,6 +2,9 @@
 This changelog goes back to the most recent semver consistency adjustment and is not comprehensive of the entire mod's history.
 ## 1.20.1
 
+### 5.0.1
+Adjust config files and fix a horse armor event handler.
+
 ### 5.0.0
 Initial port to 1.20.1.
 
