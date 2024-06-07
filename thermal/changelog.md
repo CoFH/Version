@@ -1,5 +1,12 @@
 Changelog - Thermal Series
 =============================
+1.20.1-11.0.5
+-----------------------------
+
+- Client-side blocks now force-update when an augment is installed via right-click.
+- Fixed an issue with Creative Tabs not correctly displaying items if a large number of mods were installed.
+- Rendering fixes for Engineer vision.
+
 1.20.1-11.0.4
 -----------------------------
 
@@ -12,6 +19,8 @@ Changelog - Thermal Series
 - Fix some tags.
 - Remove "Rockwool" flag.
 - Remove Bamboo Block.
+
+- Compatibility adjustment for CreeperOverhaul.
 
 Lots of minor fixes to things not properly showing up in Creative / JEI.
 
